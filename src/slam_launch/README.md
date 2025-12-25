@@ -11,7 +11,7 @@ This package provides:
 ### Components
 | Component | Purpose |
 |-----------|---------|
-| RPLIDAR A3 | 360° laser scanner (20Hz, 12m range) |
+| RPLIDAR A3 | 360° laser scanner (20Hz, 25m range) |
 | rf2o_laser_odometry | Odometry from laser scan matching |
 | slam_toolbox | SLAM and localization |
 
