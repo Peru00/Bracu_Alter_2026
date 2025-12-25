@@ -1,0 +1,708 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"pluginlib_export_plugin_description_file",
+			"ament_environment_hooks",
+			"_ament_cmake_export_libraries_register_environment_hook",
+			"ament_export_targets",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_export_libraries/cmake/ament_cmake_export_libraries-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_export_targets/cmake/ament_export_targets.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+			"/opt/ros/jazzy/share/pluginlib/cmake/pluginlib_package_hook.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_export_targets/cmake/ament_cmake_export_targets_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 186,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 201,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 211,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 216,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 59,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 25,
+				"parent" : 8
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 66,
+				"parent" : 12
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 6,
+				"parent" : 14
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 47,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 29,
+				"parent" : 16
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 6,
+				"line" : 48,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 43,
+				"parent" : 19
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 9,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 20,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 24
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 87,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 91,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 107,
+				"parent" : 29
+			},
+			{
+				"command" : 0,
+				"file" : 10,
+				"line" : 120,
+				"parent" : 29
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 12,
+				"parent" : 35
+			},
+			{
+				"command" : 12,
+				"file" : 12,
+				"line" : 16,
+				"parent" : 36
+			},
+			{
+				"command" : 5,
+				"file" : 11,
+				"line" : 29,
+				"parent" : 37
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 38
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 13,
+				"parent" : 40
+			},
+			{
+				"command" : 5,
+				"file" : 13,
+				"line" : 22,
+				"parent" : 41
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 105,
+				"parent" : 42
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 48,
+				"parent" : 13
+			},
+			{
+				"file" : 14,
+				"parent" : 44
+			},
+			{
+				"command" : 0,
+				"file" : 14,
+				"line" : 28,
+				"parent" : 45
+			},
+			{
+				"command" : 13,
+				"file" : 8,
+				"line" : 68,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 122,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 150,
+				"parent" : 47
+			},
+			{
+				"command" : 0,
+				"file" : 8,
+				"line" : 157,
+				"parent" : 47
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"plugin_description.xml"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"librviz_visual_tools.so"
+			],
+			"targetId" : "rviz_visual_tools::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"librviz_visual_tools_remote_control.so"
+			],
+			"targetId" : "rviz_visual_tools_remote_control::@6890427a1f51a3e7e1df",
+			"targetIndex" : 21,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"librviz_visual_tools_gui.so"
+			],
+			"targetId" : "rviz_visual_tools_gui::@6890427a1f51a3e7e1df",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"librviz_visual_tools_imarker_simple.so"
+			],
+			"targetId" : "rviz_visual_tools_imarker_simple::@6890427a1f51a3e7e1df",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/rviz_visual_tools",
+			"paths" : 
+			[
+				"rviz_visual_tools_demo"
+			],
+			"targetId" : "rviz_visual_tools_demo::@6890427a1f51a3e7e1df",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/rviz_visual_tools",
+			"paths" : 
+			[
+				"rviz_visual_tools_imarker_simple_demo"
+			],
+			"targetId" : "rviz_visual_tools_imarker_simple_demo::@6890427a1f51a3e7e1df",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"launch"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/environment",
+			"paths" : 
+			[
+				"/opt/ros/jazzy/lib/python3.12/site-packages/ament_package/template/environment_hook/library_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/environment",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/library_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/environment",
+			"paths" : 
+			[
+				"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/environment",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/environment",
+			"paths" : 
+			[
+				"/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/environment",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_index/share/ament_index/resource_index/packages/rviz_visual_tools"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/rviz_common__pluginlib__plugin",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_index/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 46,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/cmake",
+			"exportName" : "export_rviz_visual_tools",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rviz_visual_tools::@6890427a1f51a3e7e1df",
+					"index" : 6
+				},
+				{
+					"id" : "rviz_visual_tools_remote_control::@6890427a1f51a3e7e1df",
+					"index" : 21
+				},
+				{
+					"id" : "rviz_visual_tools_gui::@6890427a1f51a3e7e1df",
+					"index" : 12
+				},
+				{
+					"id" : "rviz_visual_tools_imarker_simple::@6890427a1f51a3e7e1df",
+					"index" : 15
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/db092661bac5b601db9f6e4b72f7750a/export_rviz_visual_toolsExport.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 48,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/cmake",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 49,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/cmake",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 50,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/cmake",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 51,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/cmake",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 52,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools/cmake",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_core/rviz_visual_toolsConfig.cmake",
+				"/home/peru0002/ros2_ws/build/rviz_visual_tools/ament_cmake_core/rviz_visual_toolsConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 53,
+			"component" : "Unspecified",
+			"destination" : "share/rviz_visual_tools",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

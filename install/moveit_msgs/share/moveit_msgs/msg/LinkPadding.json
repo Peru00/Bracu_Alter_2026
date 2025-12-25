@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/msg/LinkPadding",
+      "fields": [
+        {
+          "name": "link_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "padding",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/msg/LinkPadding",
+      "hash_string": "RIHS01_864762d9e19f758b0385427f75691374cae830495727c96405f2bad0eb20c766"
+    }
+  ]
+}

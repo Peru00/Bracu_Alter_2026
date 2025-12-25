@@ -1,0 +1,1 @@
+#pragma message("#include \"cached_ik_kinematics_parameters.hpp\" is deprecated. Use #include <moveit_kinematics/cached_ik_kinematics_parameters.hpp> instead.")

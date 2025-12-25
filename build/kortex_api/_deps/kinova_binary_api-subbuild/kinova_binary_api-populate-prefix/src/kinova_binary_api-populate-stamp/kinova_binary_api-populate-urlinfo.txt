@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/peru0002/ros2_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/download-kinova_binary_api-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/peru0002/ros2_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/verify-kinova_binary_api-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/peru0002/ros2_ws/build/kortex_api/_deps/kinova_binary_api-subbuild/kinova_binary_api-populate-prefix/src/kinova_binary_api-populate-stamp/extract-kinova_binary_api-populate.cmake
+source_dir=/home/peru0002/ros2_ws/build/kortex_api/_deps/kinova_binary_api-src
+work_dir=/home/peru0002/ros2_ws/build/kortex_api/_deps
+url(s)=https://artifactory.kinovaapps.com:443/artifactory/generic-public/kortex/API/2.5.0/linux_x86-64_x86_gcc.zip
+hash=MD5=64bd86e7ab8bda90ef1fc7d6a356e080
+no_extract=
+

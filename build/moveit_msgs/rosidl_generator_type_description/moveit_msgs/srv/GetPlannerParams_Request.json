@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/srv/GetPlannerParams_Request",
+      "fields": [
+        {
+          "name": "pipeline_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "planner_config",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "group",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/srv/GetPlannerParams_Request",
+      "hash_string": "RIHS01_d5c5aa547967f14f3ff0dd58a0d68bab7fd2cf20a1c2e7a83c450d0c8b10c995"
+    }
+  ]
+}

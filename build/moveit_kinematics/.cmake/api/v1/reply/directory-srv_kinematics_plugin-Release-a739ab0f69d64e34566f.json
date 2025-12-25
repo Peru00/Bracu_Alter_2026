@@ -1,0 +1,70 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"generate_parameter_library"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/generate_parameter_library/cmake/generate_parameter_library.cmake",
+			"srv_kinematics_plugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/moveit_kinematics/srv_kinematics_plugin/include/moveit_kinematics"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/moveit_kinematics",
+			"paths" : 
+			[
+				{
+					"from" : "srv_kinematics_plugin/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "srv_kinematics_plugin",
+		"source" : "srv_kinematics_plugin"
+	}
+}

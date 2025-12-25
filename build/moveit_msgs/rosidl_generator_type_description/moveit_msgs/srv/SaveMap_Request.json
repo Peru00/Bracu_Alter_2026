@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/srv/SaveMap_Request",
+      "fields": [
+        {
+          "name": "filename",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/srv/SaveMap_Request",
+      "hash_string": "RIHS01_3fe233ff7fbd381b61f3ec2bcc03aafe8d11447814e1897df31d85280e8d6750"
+    }
+  ]
+}

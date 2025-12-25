@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/msg/ServoStatus",
+      "fields": [
+        {
+          "name": "code",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "message",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/msg/ServoStatus",
+      "hash_string": "RIHS01_882a75f7648d6f8a9bf528e4787f51c58f2d5d88b702e450443d99f270e6936b"
+    }
+  ]
+}

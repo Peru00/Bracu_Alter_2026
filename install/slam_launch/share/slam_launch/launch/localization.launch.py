@@ -1,0 +1,1 @@
+/home/peru0002/ros2_ws/src/slam_launch/launch/localization.launch.py

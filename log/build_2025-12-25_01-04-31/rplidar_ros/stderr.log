@@ -1,0 +1,62 @@
+[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/rplidar_ros` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:46[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool[01;32m[K stop_motor[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:169:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  169 | bool stop_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:170:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  170 |                 [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool[01;32m[K start_motor[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:181:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  181 | bool start_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:182:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  182 |                  [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:362:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  362 |                     for( ; [01;35m[Ki < count[m[K; i++ ) {
+      |                            [01;35m[K~~^~~~~~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::[01;32m[Kstop_motor[m[K({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  245 | void rplidar_node::stop_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+      |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  245 | void rplidar_node::stop_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+      |                                                       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::[01;32m[Kstart_motor[m[K({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  256 | void rplidar_node::start_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  256 | void rplidar_node::start_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K

@@ -1,0 +1,40 @@
+[1.745s] Invoking command in '/home/peru0002/ros2_ws/src/build/bracu_hydra_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/src/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/peru0002/ros2_ws/src/build/bracu_hydra_description/build --no-deps symlink_data
+[2.393s] running develop
+[2.842s] running egg_info
+[2.843s] creating bracu_hydra_description.egg-info
+[2.885s] writing bracu_hydra_description.egg-info/PKG-INFO
+[2.885s] writing dependency_links to bracu_hydra_description.egg-info/dependency_links.txt
+[2.885s] writing requirements to bracu_hydra_description.egg-info/requires.txt
+[2.886s] writing top-level names to bracu_hydra_description.egg-info/top_level.txt
+[2.886s] writing manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+[2.973s] reading manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+[2.974s] writing manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+[3.017s] running build_ext
+[3.017s] Creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/python3.12/site-packages/bracu-hydra-description.egg-link (link to .)
+[3.018s] 
+[3.018s] Installed /home/peru0002/ros2_ws/src/build/bracu_hydra_description
+[3.018s] running symlink_data
+[3.018s] creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index
+[3.018s] creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index/resource_index
+[3.019s] creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index/resource_index/packages
+[3.019s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/resource/bracu_hydra_description -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index/resource_index/packages
+[3.019s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/package.xml -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description
+[3.019s] creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/launch
+[3.019s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/launch/gazebo.launch.py -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/launch
+[3.019s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/launch/display.launch.py -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/launch
+[3.019s] creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+[3.019s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/bracu_hydra.ros2control.xml -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+[3.020s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/bracu_hydra.xacro -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+[3.020s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/materials.xacro -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+[3.020s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/bracu_hydra.gazebo -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+[3.020s] creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+[3.020s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/joint_2_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+[3.020s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/base_link.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+[3.020s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/gripper_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+[3.020s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/joint_3_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+[3.021s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/joint_1_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+[3.021s] creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config
+[3.021s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/config/gazebo.rviz -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config
+[3.021s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/config/ros_gz_bridge_gazebo.yaml -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config
+[3.021s] symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/config/display.rviz -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config
+[3.092s] Invoked command in '/home/peru0002/ros2_ws/src/build/bracu_hydra_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/src/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/peru0002/ros2_ws/src/build/bracu_hydra_description/build --no-deps symlink_data

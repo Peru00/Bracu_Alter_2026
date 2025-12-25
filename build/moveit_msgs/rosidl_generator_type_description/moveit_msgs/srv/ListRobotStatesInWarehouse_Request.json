@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/srv/ListRobotStatesInWarehouse_Request",
+      "fields": [
+        {
+          "name": "regex",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "robot",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/srv/ListRobotStatesInWarehouse_Request",
+      "hash_string": "RIHS01_db56bffdd038a24c9c96db0696602fb8b638e84f838d80997caacaf251ba0b53"
+    }
+  ]
+}

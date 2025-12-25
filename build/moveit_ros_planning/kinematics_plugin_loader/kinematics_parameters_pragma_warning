@@ -1,0 +1,1 @@
+#pragma message("#include \"kinematics_parameters.hpp\" is deprecated. Use #include <moveit_ros_planning/kinematics_parameters.hpp> instead.")

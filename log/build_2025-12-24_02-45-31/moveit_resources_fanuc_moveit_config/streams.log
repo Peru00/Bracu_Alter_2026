@@ -1,0 +1,56 @@
+[0.060s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_resources/fanuc_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config
+[0.171s] -- The C compiler identification is GNU 13.3.0
+[0.277s] -- The CXX compiler identification is GNU 13.3.0
+[0.307s] -- Detecting C compiler ABI info
+[0.470s] -- Detecting C compiler ABI info - done
+[0.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.486s] -- Detecting C compile features
+[0.487s] -- Detecting C compile features - done
+[0.501s] -- Detecting CXX compiler ABI info
+[0.669s] -- Detecting CXX compiler ABI info - done
+[0.689s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.689s] -- Detecting CXX compile features
+[0.690s] -- Detecting CXX compile features - done
+[0.697s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.969s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.337s] -- Configuring done (1.3s)
+[1.345s] -- Generating done (0.0s)
+[1.350s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config
+[1.361s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_resources/fanuc_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config
+[1.363s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config -- -j8 -l8
+[1.441s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config -- -j8 -l8
+[1.442s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config
+[1.478s] -- Install configuration: "Release"
+[1.480s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_fanuc_moveit_config
+[1.480s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_fanuc_moveit_config
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.sh
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/ament_prefix_path.dsv
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.sh
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/environment/path.dsv
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.bash
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.sh
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.zsh
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/local_setup.dsv
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.dsv
+[1.482s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/ament_index/resource_index/packages/moveit_resources_fanuc_moveit_config
+[1.482s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig.cmake
+[1.482s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake/moveit_resources_fanuc_moveit_configConfig-version.cmake
+[1.482s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/package.xml
+[1.482s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch
+[1.482s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/demo.launch.py
+[1.482s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/launch/moveit.rviz
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ompl_planning.yaml
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/ros2_controllers.yaml
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/pilz_cartesian_limits.yaml
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/moveit_controllers.yaml
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/chomp_planning.yaml
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.srdf
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/joint_limits.yaml
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.ros2_control.xacro
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/fanuc.urdf.xacro
+[1.483s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/sensors_3d.yaml
+[1.484s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/kinematics.yaml
+[1.484s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/config/initial_positions.yaml
+[1.484s] -- Installing: /home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/.setup_assistant
+[1.487s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_resources_fanuc_moveit_config

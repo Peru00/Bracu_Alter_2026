@@ -1,0 +1,115 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found moveit_core: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0")  
+-- Configuring done (2.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/peru0002/ros2_ws/build/pilz_industrial_motion_planner_testutils
+[ 16%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/sequence.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/jointconfiguration.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/xml_testdata_loader.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/cartesianconfiguration.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/robotconfiguration.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpilz_industrial_motion_planner_testutils.so[0m
+[100%] Built target pilz_industrial_motion_planner_testutils
+-- Install configuration: "Release"
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib/libpilz_industrial_motion_planner_testutils.so
+-- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/lib/libpilz_industrial_motion_planner_testutils.so" to ""
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/cartesianpathconstraintsbuilder.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/async_test.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/motioncmd.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/exception_types.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/basecmd.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/robotstatemsgconvertible.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/gripper.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/jointconfiguration.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/xml_testdata_loader.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/command_types_typedef.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/goalconstraintsmsgconvertible.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/command_types_typedef.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/cartesianpathconstraintsbuilder.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/circauxiliary.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/circ_auxiliary_types.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/exception_types.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/robotconfiguration.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/checks.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/default_values.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/xml_constants.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/circ_auxiliary_types.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/robotconfiguration.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/motionplanrequestconvertible.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/motioncmd.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/sequence.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/xml_constants.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/basecmd.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/testdata_loader.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/sequence.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/circauxiliary.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/motionplanrequestconvertible.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/lin.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/interim.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/testdata_loader.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/xml_testdata_loader.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/jointconfiguration.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/ptp.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/ptp.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/lin.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/goalconstraintsmsgconvertible.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/cartesianconfiguration.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/async_test.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/circ.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/center.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/cartesianconfiguration.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/checks.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/interim.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/robotstatemsgconvertible.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/gripper.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/center.hpp
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/circ.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/pilz_industrial_motion_planner_testutils/default_values.h
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/package_run_dependencies/pilz_industrial_motion_planner_testutils
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/parent_prefix_path/pilz_industrial_motion_planner_testutils
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.sh
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.bash
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.sh
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.zsh
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.dsv
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.dsv
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/packages/pilz_industrial_motion_planner_testutils
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsTargetsExport.cmake
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsTargetsExport-release.cmake
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig.cmake
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig-version.cmake
+-- Installing: /home/peru0002/ros2_ws/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.xml

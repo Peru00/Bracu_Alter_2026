@@ -1,0 +1,59 @@
+[0.011s] Invoking command in '/home/peru0002/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/serial
+[0.127s] -- The C compiler identification is GNU 13.3.0
+[0.212s] -- The CXX compiler identification is GNU 13.3.0
+[0.235s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.407s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.408s] -- Detecting C compile features
+[0.408s] -- Detecting C compile features - done
+[0.422s] -- Detecting CXX compiler ABI info
+[0.589s] -- Detecting CXX compiler ABI info - done
+[0.607s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.607s] -- Detecting CXX compile features
+[0.608s] -- Detecting CXX compile features - done
+[0.613s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.875s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.250s] -- Configuring done (1.2s)
+[1.257s] -- Generating done (0.0s)
+[1.262s] -- Build files have been written to: /home/peru0002/ros2_ws/build/serial
+[1.277s] Invoked command in '/home/peru0002/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/serial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/serial
+[1.277s] Invoking command in '/home/peru0002/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/serial -- -j8 -l8
+[2.223s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.227s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.227s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[3.243s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[3.629s] [100%] Built target serial
+[3.649s] Invoked command in '/home/peru0002/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/serial -- -j8 -l8
+[3.661s] Invoking command in '/home/peru0002/ros2_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/serial
+[3.668s] -- Install configuration: "Release"
+[3.668s] -- Installing: /home/peru0002/ros2_ws/install/serial/lib/libserial.a
+[3.672s] -- Installing: /home/peru0002/ros2_ws/install/serial/include
+[3.673s] -- Installing: /home/peru0002/ros2_ws/install/serial/include/serial
+[3.673s] -- Installing: /home/peru0002/ros2_ws/install/serial/include/serial/v8stdint.h
+[3.673s] -- Installing: /home/peru0002/ros2_ws/install/serial/include/serial/impl
+[3.673s] -- Installing: /home/peru0002/ros2_ws/install/serial/include/serial/impl/win.h
+[3.673s] -- Installing: /home/peru0002/ros2_ws/install/serial/include/serial/impl/unix.h
+[3.673s] -- Installing: /home/peru0002/ros2_ws/install/serial/include/serial/serial.h
+[3.673s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/environment/library_path.sh
+[3.674s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/environment/library_path.dsv
+[3.674s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.674s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.674s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.674s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.675s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/environment/path.sh
+[3.676s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/environment/path.dsv
+[3.676s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/local_setup.bash
+[3.678s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/local_setup.sh
+[3.678s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/local_setup.zsh
+[3.678s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/local_setup.dsv
+[3.678s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/package.dsv
+[3.678s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/ament_index/resource_index/packages/serial
+[3.678s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/cmake/export_serialExport.cmake
+[3.679s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/cmake/export_serialExport-release.cmake
+[3.679s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.679s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.679s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/cmake/ament_cmake_export_targets-extras.cmake
+[3.679s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[3.679s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.679s] -- Installing: /home/peru0002/ros2_ws/install/serial/share/serial/package.xml
+[3.695s] Invoked command in '/home/peru0002/ros2_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/serial

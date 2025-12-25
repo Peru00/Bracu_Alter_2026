@@ -1,0 +1,499 @@
+[0.027s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_core -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_core
+[0.043s] -- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.043s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.468s] -- Found angles: 1.16.1 (/opt/ros/jazzy/share/angles/cmake)
+[0.538s] -- Found common_interfaces: 5.3.6 (/opt/ros/jazzy/share/common_interfaces/cmake)
+[0.538s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/jazzy/share/eigen_stl_containers/cmake)
+[0.541s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.548s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[0.549s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[0.576s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.587s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.618s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.694s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.696s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.870s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.905s] -- Found geometric_shapes: 2.3.2 (/opt/ros/jazzy/share/geometric_shapes/cmake)
+[0.913s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[1.048s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[1.052s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.054s] -- Found moveit_msgs: 2.7.1 (/home/peru0002/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+[1.281s] -- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.288s] -- Found srdfdom: 2.0.7 (/opt/ros/jazzy/share/srdfdom/cmake)
+[1.297s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[1.396s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.401s] -- Found tf2_kdl: 0.36.16 (/opt/ros/jazzy/share/tf2_kdl/cmake)
+[1.429s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.443s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.444s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.463s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.477s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.490s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.491s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.499s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[1.503s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.507s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.508s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.521s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.522s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.544s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.545s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.577s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.578s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.597s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.598s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.611s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.612s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.624s] -- Found ament_cmake_google_benchmark: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_google_benchmark/cmake)
+[1.626s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.629s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.629s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.638s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[1.643s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.654s] -- Found ament_cmake_google_benchmark: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_google_benchmark/cmake)
+[1.655s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.657s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.663s] -- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+[1.673s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[1.673s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.693s] -- Found launch_testing_ament_cmake: 3.4.9 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[1.694s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.948s] --  *** Building MoveIt 2.14.1 devel ***
+[1.971s] -- Configuring done (1.9s)
+[3.133s] -- Generating done (1.0s)
+[3.352s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_core
+[3.412s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_core -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_core
+[3.415s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_core -- -j8 -l8
+[3.517s] [  1%] Built target moveit_acceleration_filter_parameters
+[3.518s] [  2%] Built target moveit_butterworth_filter_parameters
+[3.527s] [  3%] Built target gtest
+[3.537s] [  4%] Built target gtest_main
+[3.539s] [  6%] Built target gmock_main
+[3.546s] [  7%] Built target gmock
+[3.550s] [ 10%] Built target moveit_utils
+[3.556s] [ 12%] Built target moveit_smoothing_base
+[3.565s] [ 13%] Built target moveit_ruckig_filter_parameters
+[3.572s] [ 14%] [34m[1mGenerate version header[0m
+[3.596s] [ 16%] Built target moveit_exceptions
+[3.607s] [ 17%] Built target logger_dut
+[3.655s] [ 18%] Built target moveit_transforms
+[3.660s] [ 20%] Built target moveit_distance_field
+[3.664s] [ 21%] [34m[1mGenerating version.hpp[0m
+[3.686s] [ 21%] Built target version_hpp
+[3.713s] [ 22%] Built target test_transforms
+[3.728s] [ 28%] Built target moveit_robot_model
+[3.736s] [ 29%] Built target moveit_version
+[3.738s] [ 30%] Built target test_voxel_grid
+[3.744s] [ 31%] Built target test_distance_field
+[3.781s] [ 32%] Built target moveit_kinematics_base
+[3.798s] [ 33%] Built target moveit_butterworth_filter
+[3.859s] [ 34%] Built target test_butterworth_filter
+[3.860s] [ 35%] Built target moveit_test_utils
+[3.889s] [ 38%] Built target moveit_robot_state
+[3.921s] [ 39%] Built target test_robot_model
+[3.967s] [ 40%] Built target moveit_kinematics_metrics
+[3.970s] [ 42%] Built target moveit_ruckig_filter
+[3.970s] [ 42%] Built target moveit_acceleration_filter
+[3.973s] [ 44%] Built target test_robot_state
+[3.978s] [ 45%] Built target moveit_robot_trajectory
+[3.983s] [ 46%] Built target moveit_dynamics_solver
+[3.989s] [ 47%] Built target test_robot_state_complex
+[4.023s] [ 53%] Built target moveit_collision_detection
+[4.028s] [ 54%] Built target test_cartesian_interpolator
+[4.032s] [ 55%] Built target test_aabb
+[4.032s] [ 56%] Built target robot_state_benchmark
+[4.041s] [ 57%] Built target test_acceleration_filter
+[4.047s] [ 58%] Built target test_robot_trajectory
+[4.064s] [ 60%] Built target moveit_trajectory_processing
+[4.080s] [ 61%] Built target test_world_diff
+[4.092s] [ 62%] Built target test_all_valid
+[4.094s] [ 63%] Built target test_world
+[4.104s] [ 65%] Built target moveit_collision_detection_fcl
+[4.128s] [ 66%] Built target robot_trajectory_benchmark
+[4.139s] [ 68%] Built target test_time_optimal_trajectory_generation
+[4.139s] [ 68%] Built target test_ruckig_traj_smoothing
+[4.168s] [ 72%] Built target moveit_collision_detection_bullet
+[4.186s] [ 73%] Built target test_fcl_collision_env
+[4.194s] [ 74%] Built target test_fcl_collision_detection
+[4.194s] [ 75%] Built target test_fcl_collision_detection_panda
+[4.207s] [ 76%] Built target moveit_kinematic_constraints
+[4.243s] [ 77%] Built target test_bullet_continuous_collision_checking
+[4.247s] [ 80%] Built target test_bullet_collision_detection_panda
+[4.247s] [ 80%] Built target test_bullet_collision_detection
+[4.269s] [ 82%] Built target test_constraints
+[4.271s] [ 83%] Built target test_orientation_constraints
+[4.299s] [ 84%] Built target moveit_planning_scene
+[4.362s] [ 86%] Built target test_collision_objects
+[4.362s] [ 86%] Built target test_planning_scene
+[4.367s] [ 87%] Built target test_multi_threaded
+[4.369s] [ 88%] Built target collision_detector_fcl_plugin
+[4.374s] [ 90%] Built target moveit_planning_interface
+[4.376s] [ 91%] Built target collision_detector_bullet_plugin
+[4.393s] [ 94%] Built target moveit_constraint_samplers
+[4.433s] [ 97%] Built target moveit_collision_distance_field
+[4.481s] [ 99%] Built target test_constraint_samplers
+[4.530s] [100%] Built target test_collision_distance_field
+[4.558s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_core -- -j8 -l8
+[4.562s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_core': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_core
+[4.583s] -- Install configuration: "Release"
+[4.584s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.584s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.584s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet
+[4.585s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/collision_detector_allocator_bullet.hpp
+[4.585s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/collision_env_bullet.h
+[4.585s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration
+[4.586s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/ros_bullet_utils.hpp
+[4.586s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.hpp
+[4.586s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.hpp
+[4.586s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_utils.h
+[4.587s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.h
+[4.587s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/basic_types.hpp
+[4.587s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_bvh_manager.h
+[4.587s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_cast_bvh_manager.h
+[4.588s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/ros_bullet_utils.h
+[4.588s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.hpp
+[4.588s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/contact_checker_common.hpp
+[4.588s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/basic_types.h
+[4.589s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_utils.hpp
+[4.589s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/bullet_integration/bullet_discrete_bvh_manager.h
+[4.589s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/collision_detector_bullet_plugin_loader.hpp
+[4.590s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/collision_detector_bullet_plugin_loader.h
+[4.590s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/collision_detector_allocator_bullet.h
+[4.590s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_bullet/collision_env_bullet.hpp
+[4.591s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_collision_detection_bullet_export.h
+[4.591s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.591s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.591s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl
+[4.592s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_detector_allocator_fcl.hpp
+[4.592s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/fcl_compat.h
+[4.592s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_detector_fcl_plugin_loader.hpp
+[4.592s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_env_fcl.hpp
+[4.593s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_detector_allocator_fcl.h
+[4.593s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/fcl_compat.hpp
+[4.593s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_detector_fcl_plugin_loader.h
+[4.593s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_common.hpp
+[4.594s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_common.h
+[4.594s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection_fcl/collision_env_fcl.h
+[4.594s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_collision_detection_fcl_export.h
+[4.594s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.595s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.595s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection
+[4.595s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_env.hpp
+[4.596s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_matrix.hpp
+[4.596s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/allvalid
+[4.596s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/allvalid/collision_env_allvalid.hpp
+[4.597s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/allvalid/collision_env_allvalid.h
+[4.597s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/allvalid/collision_detector_allocator_allvalid.h
+[4.597s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/allvalid/collision_detector_allocator_allvalid.hpp
+[4.597s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/world.hpp
+[4.598s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/occupancy_map.hpp
+[4.598s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_plugin.hpp
+[4.598s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_plugin.h
+[4.598s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/test_collision_common_panda.hpp
+[4.599s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_detector_allocator.h
+[4.599s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/occupancy_map.h
+[4.600s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/test_collision_common_pr2.hpp
+[4.600s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_tools.hpp
+[4.600s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/world_diff.h
+[4.600s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_detector_allocator.hpp
+[4.601s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/world_diff.hpp
+[4.601s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_env.h
+[4.601s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/world.h
+[4.601s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_common.hpp
+[4.602s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_octomap_filter.h
+[4.602s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_common.h
+[4.602s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/test_collision_common_panda.h
+[4.602s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_plugin_cache.hpp
+[4.603s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_plugin_cache.h
+[4.603s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_octomap_filter.hpp
+[4.603s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_matrix.h
+[4.603s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/test_collision_common_pr2.h
+[4.604s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_detection/collision_tools.h
+[4.604s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_collision_detection_export.h
+[4.604s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.605s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.605s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field
+[4.605s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_common_distance_field.h
+[4.605s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_distance_field_types.hpp
+[4.606s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_detector_allocator_distance_field.h
+[4.606s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_distance_field_types.h
+[4.606s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_common_distance_field.hpp
+[4.606s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_detector_allocator_hybrid.hpp
+[4.607s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_env_hybrid.hpp
+[4.607s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_env_hybrid.h
+[4.607s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_detector_allocator_distance_field.hpp
+[4.607s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_env_distance_field.h
+[4.608s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_env_distance_field.hpp
+[4.608s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/collision_distance_field/collision_detector_allocator_hybrid.h
+[4.608s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_collision_distance_field_export.h
+[4.609s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.609s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.609s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers
+[4.609s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler_tools.h
+[4.610s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler.h
+[4.610s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/union_constraint_sampler.hpp
+[4.610s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler_manager.h
+[4.610s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler_allocator.h
+[4.611s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler_allocator.hpp
+[4.611s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/default_constraint_samplers.hpp
+[4.611s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler_tools.hpp
+[4.611s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/union_constraint_sampler.h
+[4.612s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler.hpp
+[4.612s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/default_constraint_samplers.h
+[4.612s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/constraint_samplers/constraint_sampler_manager.hpp
+[4.612s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.613s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.613s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/controller_manager
+[4.613s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/controller_manager/controller_manager.h
+[4.613s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/controller_manager/controller_manager.hpp
+[4.614s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.614s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.614s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field
+[4.614s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/find_internal_points.hpp
+[4.615s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/propagation_distance_field.h
+[4.615s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/distance_field.hpp
+[4.615s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/voxel_grid.hpp
+[4.615s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/distance_field.h
+[4.616s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/propagation_distance_field.hpp
+[4.616s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/find_internal_points.h
+[4.616s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/distance_field/voxel_grid.h
+[4.616s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.617s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.617s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/dynamics_solver
+[4.617s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/dynamics_solver/dynamics_solver.hpp
+[4.617s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/dynamics_solver/dynamics_solver.h
+[4.618s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.618s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.618s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/exceptions
+[4.618s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/exceptions/exceptions.h
+[4.618s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/exceptions/exceptions.hpp
+[4.619s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.619s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.619s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematic_constraints
+[4.619s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematic_constraints/utils.hpp
+[4.620s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.hpp
+[4.620s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematic_constraints/utils.h
+[4.620s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematic_constraints/kinematic_constraint.h
+[4.620s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.620s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.621s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematics_base
+[4.621s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematics_base/kinematics_base.hpp
+[4.621s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematics_base/kinematics_base.h
+[4.621s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_kinematics_base_export.h
+[4.622s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.622s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.622s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematics_metrics
+[4.622s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematics_metrics/kinematics_metrics.h
+[4.623s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/kinematics_metrics/kinematics_metrics.hpp
+[4.623s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.623s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.623s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/macros
+[4.624s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/macros/declare_ptr.h
+[4.624s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/macros/console_colors.hpp
+[4.624s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/macros/console_colors.h
+[4.624s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/macros/declare_ptr.hpp
+[4.625s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/macros/class_forward.h
+[4.625s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/macros/class_forward.hpp
+[4.625s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.626s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_ruckig_filter_parameters.hpp
+[4.626s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_acceleration_filter_parameters.hpp
+[4.626s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_butterworth_filter_parameters.hpp
+[4.627s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.627s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_ruckig_filter_parameters.hpp
+[4.627s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_acceleration_filter_parameters.hpp
+[4.627s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_butterworth_filter_parameters.hpp
+[4.628s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.628s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_ruckig_filter_parameters.hpp
+[4.628s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_acceleration_filter_parameters.hpp
+[4.628s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_butterworth_filter_parameters.hpp
+[4.629s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.629s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.629s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing
+[4.629s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/ruckig_filter.hpp
+[4.630s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/smoothing_base_class.hpp
+[4.630s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/butterworth_filter.h
+[4.630s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/acceleration_filter.h
+[4.630s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/ruckig_filter.h
+[4.631s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/smoothing_base_class.h
+[4.631s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/acceleration_filter.hpp
+[4.631s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/online_signal_smoothing/butterworth_filter.hpp
+[4.633s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_smoothing_base_export.h
+[4.633s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_acceleration_filter_export.h
+[4.633s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_butterworth_filter_export.h
+[4.634s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_ruckig_filter_export.h
+[4.634s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.634s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.634s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface
+[4.635s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_response_adapter.hpp
+[4.635s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_request_adapter.hpp
+[4.635s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_response.h
+[4.636s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_response.hpp
+[4.636s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_interface.hpp
+[4.636s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_interface.h
+[4.637s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_response_adapter.h
+[4.637s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_request.h
+[4.637s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_request_adapter.h
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_interface/planning_request.hpp
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_scene
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_scene/planning_scene.hpp
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/planning_scene/planning_scene.h
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit_planning_scene_export.h
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.638s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.h
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/prismatic_joint_model.hpp
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/prismatic_joint_model.h
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/floating_joint_model.h
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/fixed_joint_model.hpp
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/revolute_joint_model.h
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/floating_joint_model.hpp
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.h
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/aabb.h
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/robot_model.hpp
+[4.639s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/link_model.hpp
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/revolute_joint_model.hpp
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.h
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/link_model.h
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/fixed_joint_model.h
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/planar_joint_model.h
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/aabb.hpp
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model.hpp
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/planar_joint_model.hpp
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_model/joint_model_group.hpp
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.640s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/cartesian_interpolator.h
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/attached_body.hpp
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/conversions.hpp
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.hpp
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/cartesian_interpolator.hpp
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/robot_state.h
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/attached_body.h
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_state/conversions.h
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_trajectory
+[4.641s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_trajectory/robot_trajectory.h
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/robot_trajectory/robot_trajectory.hpp
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/ruckig_traj_smoothing.h
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/time_parameterization.h
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/time_optimal_trajectory_generation.hpp
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/time_parameterization.hpp
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/trajectory_tools.hpp
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/trajectory_tools.h
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/ruckig_traj_smoothing.hpp
+[4.642s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/trajectory_processing/time_optimal_trajectory_generation.h
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/transforms
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/transforms/transforms.h
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/transforms/transforms.hpp
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/moveit_error_code.hpp
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/robot_model_test_utils.h
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/moveit_error_code.h
+[4.643s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/message_checks.h
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/lexical_casts.hpp
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/lexical_casts.h
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/eigen_test_utils.h
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/robot_model_test_utils.hpp
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/message_checks.hpp
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/logger.hpp
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/logger.h
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/rclcpp_utils.h
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/rclcpp_utils.hpp
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/utils/eigen_test_utils.hpp
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/moveit_core/logger_dut
+[4.644s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/include/moveit_core/moveit/version.hpp
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/bin/moveit_version
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_detection.so.2.14.1
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_detection.so
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so.2.14.1
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_detection_bullet.so
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so.2.14.1
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_detection_fcl.so
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so.2.14.1
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_collision_distance_field.so
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so.2.14.1
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_constraint_samplers.so
+[4.645s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_distance_field.so.2.14.1
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_distance_field.so
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so.2.14.1
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_dynamics_solver.so
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_exceptions.so.2.14.1
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_exceptions.so
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so.2.14.1
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_kinematic_constraints.so
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_kinematics_base.so
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so.2.14.1
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_kinematics_metrics.so
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_planning_interface.so.2.14.1
+[4.646s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_planning_interface.so
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_planning_scene.so.2.14.1
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_planning_scene.so
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_robot_model.so.2.14.1
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_robot_model.so
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_robot_state.so.2.14.1
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_robot_state.so
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so.2.14.1
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_robot_trajectory.so
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_smoothing_base.so.2.14.1
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_smoothing_base.so
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_test_utils.so.2.14.1
+[4.647s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_test_utils.so
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so.2.14.1
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_trajectory_processing.so
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_transforms.so.2.14.1
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_transforms.so
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_utils.so.2.14.1
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_utils.so
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so.2.14.1
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libcollision_detector_bullet_plugin.so
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libcollision_detector_fcl_plugin.so.2.14.1
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libcollision_detector_fcl_plugin.so
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_acceleration_filter.so.2.14.1
+[4.648s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_acceleration_filter.so
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so.2.14.1
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_butterworth_filter.so
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_ruckig_filter.so.2.14.1
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/lib/libmoveit_ruckig_filter.so
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/environment/library_path.sh
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/environment/library_path.dsv
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/collision_detector_fcl_description.xml
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/collision_detector_bullet_description.xml
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/filter_plugin_acceleration.xml
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/filter_plugin_butterworth.xml
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/filter_plugin_ruckig.xml
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/ament_index/resource_index/package_run_dependencies/moveit_core
+[4.649s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/ament_index/resource_index/parent_prefix_path/moveit_core
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/environment/ament_prefix_path.sh
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/environment/ament_prefix_path.dsv
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/environment/path.sh
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/environment/path.dsv
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/local_setup.bash
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/local_setup.sh
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/local_setup.zsh
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/local_setup.dsv
+[4.650s] -- Installing: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/package.dsv
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/ament_index/resource_index/packages/moveit_core
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_core
+[4.650s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake/moveit_coreTargetsExport.cmake
+[4.651s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake/moveit_coreTargetsExport-release.cmake
+[4.651s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake/ConfigExtras.cmake
+[4.651s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_targets-extras.cmake
+[4.651s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.651s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig.cmake
+[4.651s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake/moveit_coreConfig-version.cmake
+[4.651s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/package.xml
+[4.651s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_core' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_core

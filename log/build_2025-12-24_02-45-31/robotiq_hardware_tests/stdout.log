@@ -1,0 +1,48 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found serial: 1.2.1 (/home/peru0002/ros2_ws/install/serial/share/serial/cmake)
+-- Found robotiq_driver: 0.0.1 (/home/peru0002/ros2_ws/install/robotiq_driver/share/robotiq_driver/cmake)
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/peru0002/ros2_ws/build/robotiq_hardware_tests
+[ 33%] [32mBuilding CXX object CMakeFiles/full_test.dir/src/command_line_utility.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/full_test.dir/src/gripper_interface_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable full_test[0m
+[100%] Built target full_test
+-- Install configuration: "Release"
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/ament_index/resource_index/package_run_dependencies/robotiq_hardware_tests
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/ament_index/resource_index/parent_prefix_path/robotiq_hardware_tests
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/environment/ament_prefix_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/environment/ament_prefix_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/environment/path.sh
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/environment/path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/local_setup.bash
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/local_setup.sh
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/local_setup.zsh
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/local_setup.dsv
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/package.dsv
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/ament_index/resource_index/packages/robotiq_hardware_tests
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/cmake/robotiq_hardware_testsConfig.cmake
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/cmake/robotiq_hardware_testsConfig-version.cmake
+-- Installing: /home/peru0002/ros2_ws/install/robotiq_hardware_tests/share/robotiq_hardware_tests/package.xml

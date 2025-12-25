@@ -1,0 +1,65 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found moveit_core: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found chomp_motion_planner: 2.14.1 (/home/peru0002/ros2_ws/install/chomp_motion_planner/share/chomp_motion_planner/cmake)
+-- Configuring done (3.3s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_planners_chomp
+[ 20%] [32mBuilding CXX object CMakeFiles/moveit_chomp_interface.dir/src/chomp_interface.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/moveit_chomp_interface.dir/src/chomp_planning_context.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libmoveit_chomp_interface.so[0m
+[ 60%] Built target moveit_chomp_interface
+[ 80%] [32mBuilding CXX object CMakeFiles/moveit_chomp_planner_plugin.dir/src/chomp_plugin.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmoveit_chomp_planner_plugin.so[0m
+[100%] Built target moveit_chomp_planner_plugin
+-- Install configuration: "Release"
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/lib/libmoveit_chomp_interface.so.2.14.1
+-- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_planners_chomp/lib/libmoveit_chomp_interface.so.2.14.1" to ""
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/lib/libmoveit_chomp_interface.so
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/lib/libmoveit_chomp_planner_plugin.so
+-- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_planners_chomp/lib/libmoveit_chomp_planner_plugin.so" to ""
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/environment/library_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/environment/library_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/chomp_interface_plugin_description.xml
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/ament_index/resource_index/package_run_dependencies/moveit_planners_chomp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/ament_index/resource_index/parent_prefix_path/moveit_planners_chomp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/environment/ament_prefix_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/environment/ament_prefix_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/environment/path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/environment/path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/local_setup.bash
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/local_setup.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/local_setup.zsh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/local_setup.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/package.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/ament_index/resource_index/packages/moveit_planners_chomp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_planners_chomp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/cmake/moveit_planners_chompTargetsExport.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/cmake/moveit_planners_chompTargetsExport-release.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/cmake/moveit_planners_chompConfig.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/cmake/moveit_planners_chompConfig-version.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_planners_chomp/share/moveit_planners_chomp/package.xml

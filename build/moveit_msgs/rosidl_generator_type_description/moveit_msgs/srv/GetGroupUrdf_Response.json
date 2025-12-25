@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/srv/GetGroupUrdf_Response",
+      "fields": [
+        {
+          "name": "error_code",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "moveit_msgs/msg/MoveItErrorCodes"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "urdf_string",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "moveit_msgs/msg/MoveItErrorCodes",
+        "fields": [
+          {
+            "name": "val",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "message",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "source",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/srv/GetGroupUrdf_Response",
+      "hash_string": "RIHS01_953465d72cab159a19479b6a649c860f39fffa948a3ef7560b54b90a579fb530"
+    },
+    {
+      "type_name": "moveit_msgs/msg/MoveItErrorCodes",
+      "hash_string": "RIHS01_dcda8a9950cf6dd6ac221c2c0d2509f52f136afa0403dd19beacdf07e83e4a07"
+    }
+  ]
+}

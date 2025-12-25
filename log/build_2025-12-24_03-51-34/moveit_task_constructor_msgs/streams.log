@@ -1,0 +1,454 @@
+[0.014s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_task_constructor_msgs': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_task_constructor/msgs -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_task_constructor_msgs
+[0.035s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.083s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.209s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.257s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.269s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.302s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.317s] -- Found moveit_msgs: 2.7.1 (/home/peru0002/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+[0.636s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.646s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.648s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.342s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.629s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.632s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.002s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.185s] -- Configuring done (3.2s)
+[3.330s] -- Generating done (0.1s)
+[3.352s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_task_constructor_msgs
+[3.369s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_task_constructor_msgs' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_task_constructor/msgs -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_task_constructor_msgs
+[3.371s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_task_constructor_msgs': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_task_constructor_msgs -- -j8 -l8
+[3.504s] [  1%] Built target moveit_task_constructor_msgs__rosidl_generator_type_description
+[3.521s] [  1%] Built target ament_cmake_python_copy_moveit_task_constructor_msgs
+[3.551s] [  1%] Built target moveit_task_constructor_msgs__cpp
+[3.594s] [ 27%] Built target moveit_task_constructor_msgs__rosidl_generator_c
+[3.669s] [ 37%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_c
+[3.672s] [ 47%] Built target moveit_task_constructor_msgs__rosidl_typesupport_c
+[3.690s] [ 56%] Built target moveit_task_constructor_msgs__rosidl_typesupport_cpp
+[3.694s] [ 66%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp
+[3.698s] [ 76%] Built target moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c
+[3.707s] [ 85%] Built target moveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp
+[3.743s] [ 85%] Built target moveit_task_constructor_msgs
+[3.787s] [ 86%] Built target moveit_task_constructor_msgs__py
+[3.872s] [ 95%] Built target moveit_task_constructor_msgs__rosidl_generator_py
+[3.926s] [ 97%] Built target moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c
+[3.927s] [ 99%] Built target moveit_task_constructor_msgs_s__rosidl_typesupport_c
+[3.937s] [100%] Built target moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c
+[3.962s] running egg_info
+[4.011s] writing moveit_task_constructor_msgs.egg-info/PKG-INFO
+[4.012s] writing dependency_links to moveit_task_constructor_msgs.egg-info/dependency_links.txt
+[4.015s] writing top-level names to moveit_task_constructor_msgs.egg-info/top_level.txt
+[4.157s] reading manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[4.160s] writing manifest file 'moveit_task_constructor_msgs.egg-info/SOURCES.txt'
+[4.217s] [100%] Built target ament_cmake_python_build_moveit_task_constructor_msgs_egg
+[4.240s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_task_constructor_msgs' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_task_constructor_msgs -- -j8 -l8
+[4.251s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_task_constructor_msgs': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_task_constructor_msgs
+[4.268s] -- Install configuration: "Release"
+[4.268s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/ament_index/resource_index/rosidl_interfaces/moveit_task_constructor_msgs
+[4.269s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.json
+[4.269s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.json
+[4.269s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.json
+[4.270s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.json
+[4.270s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.json
+[4.271s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.json
+[4.271s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.json
+[4.271s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.json
+[4.272s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.json
+[4.272s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TrajectoryExecutionInfo.json
+[4.273s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.json
+[4.273s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.json
+[4.273s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[4.274s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[4.274s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.h
+[4.275s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[4.275s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.h
+[4.276s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.h
+[4.276s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.h
+[4.276s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__description.c
+[4.277s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c
+[4.277s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__functions.c
+[4.278s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[4.278s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.h
+[4.278s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.h
+[4.279s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.h
+[4.279s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.h
+[4.279s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.h
+[4.279s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.h
+[4.279s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.h
+[4.280s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.280s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[4.280s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.h
+[4.280s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.c
+[4.280s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.h
+[4.280s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.h
+[4.281s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c
+[4.281s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.h
+[4.281s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__functions.c
+[4.281s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__description.c
+[4.281s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.h
+[4.281s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__description.c
+[4.281s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.c
+[4.282s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.c
+[4.282s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.h
+[4.282s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.h
+[4.282s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c
+[4.282s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.h
+[4.282s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c
+[4.282s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.h
+[4.282s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c
+[4.283s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.h
+[4.283s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.h
+[4.283s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__description.c
+[4.283s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.h
+[4.283s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__description.c
+[4.283s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__description.c
+[4.283s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__functions.c
+[4.283s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c
+[4.284s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.h
+[4.284s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.c
+[4.284s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.c
+[4.284s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.h
+[4.284s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.h
+[4.284s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.h
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__functions.c
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__description.c
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.h
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__description.c
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.h
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.c
+[4.285s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.c
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__functions.h
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.h
+[4.285s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__description.c
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.h
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__functions.c
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__functions.h
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.h
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.h
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.h
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__description.c
+[4.286s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.h
+[4.286s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c
+[4.287s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__functions.c
+[4.287s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__description.c
+[4.287s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__functions.c
+[4.287s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__functions.h
+[4.288s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__functions.h
+[4.288s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c
+[4.288s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.h
+[4.288s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.h
+[4.289s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.h
+[4.289s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.h
+[4.289s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.h
+[4.289s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[4.290s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.h
+[4.290s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[4.290s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__description.c
+[4.290s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.h
+[4.291s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.h
+[4.291s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c
+[4.291s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.h
+[4.291s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__functions.c
+[4.291s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.sh
+[4.291s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/library_path.dsv
+[4.291s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_c.so
+[4.291s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_c.h
+[4.292s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_fastrtps_c.h
+[4.293s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[4.294s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[4.294s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_c.h
+[4.294s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_c.so
+[4.294s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[4.294s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[4.294s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/get_solution.hpp
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__struct.hpp
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__builder.hpp
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.hpp
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__traits.hpp
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution.hpp
+[4.295s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_trajectory.hpp
+[4.296s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_statistics.hpp
+[4.296s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_description.hpp
+[4.296s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/solution_info.hpp
+[4.296s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/property.hpp
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/stage_statistics.hpp
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/trajectory_execution_info.hpp
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.hpp
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__builder.hpp
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__builder.hpp
+[4.297s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__traits.hpp
+[4.298s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__traits.hpp
+[4.298s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__traits.hpp
+[4.298s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__builder.hpp
+[4.298s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.hpp
+[4.298s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__traits.hpp
+[4.298s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.hpp
+[4.298s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__traits.hpp
+[4.299s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.hpp
+[4.299s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__traits.hpp
+[4.299s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__traits.hpp
+[4.299s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__struct.hpp
+[4.299s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__struct.hpp
+[4.299s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.hpp
+[4.300s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__builder.hpp
+[4.300s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__struct.hpp
+[4.300s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__struct.hpp
+[4.300s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__builder.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__builder.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__builder.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__struct.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__struct.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__struct.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__traits.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__struct.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__builder.hpp
+[4.301s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__traits.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__traits.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__builder.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__struct.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__builder.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.hpp
+[4.302s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__struct.hpp
+[4.303s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.hpp
+[4.303s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/sub_solution.hpp
+[4.303s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/task_description.hpp
+[4.303s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[4.303s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/execute_task_solution.hpp
+[4.307s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[4.307s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__struct.hpp
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.hpp
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__traits.hpp
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__builder.hpp
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/dds_fastrtps
+[4.308s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[4.309s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[4.309s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[4.309s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_fastrtps_cpp.hpp
+[4.309s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/dds_fastrtps
+[4.309s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[4.309s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_fastrtps_cpp.hpp
+[4.310s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_fastrtps_cpp.hpp
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.311s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_fastrtps_cpp.hpp
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/dds_fastrtps
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[4.312s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_c.h
+[4.313s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.c
+[4.313s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[4.313s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.313s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[4.313s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_c.h
+[4.313s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.c
+[4.313s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.c
+[4.313s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.c
+[4.313s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.c
+[4.314s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.c
+[4.314s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.c
+[4.314s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_c.h
+[4.314s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_c.h
+[4.314s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_introspection_c.h
+[4.314s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.c
+[4.314s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.c
+[4.314s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_c.h
+[4.315s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_c.h
+[4.315s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.c
+[4.315s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_c.h
+[4.315s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_c.h
+[4.315s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_c.h
+[4.315s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_c.h
+[4.315s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.c
+[4.315s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_c.h
+[4.316s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.c
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_c.so
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_c.so
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__rosidl_typesupport_introspection_cpp.hpp
+[4.316s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/srv/detail/get_solution__type_support.cpp
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__rosidl_typesupport_introspection_cpp.hpp
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__rosidl_typesupport_introspection_cpp.hpp
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution_info__type_support.cpp
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__type_support.cpp
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__rosidl_typesupport_introspection_cpp.hpp
+[4.317s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__type_support.cpp
+[4.318s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_statistics__type_support.cpp
+[4.318s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[4.318s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__type_support.cpp
+[4.318s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/task_description__rosidl_typesupport_introspection_cpp.hpp
+[4.318s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__type_support.cpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__type_support.cpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__type_support.cpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/solution__rosidl_typesupport_introspection_cpp.hpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_solution__rosidl_typesupport_introspection_cpp.hpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/trajectory_execution_info__type_support.cpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/property__rosidl_typesupport_introspection_cpp.hpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/sub_trajectory__type_support.cpp
+[4.319s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_statistics__rosidl_typesupport_introspection_cpp.hpp
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/msg/detail/stage_description__rosidl_typesupport_introspection_cpp.hpp
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__rosidl_typesupport_introspection_cpp.hpp
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/include/moveit_task_constructor_msgs/moveit_task_constructor_msgs/action/detail/execute_task_solution__type_support.cpp
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_introspection_cpp.so
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_typesupport_cpp.so
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.sh
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/pythonpath.dsv
+[4.320s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs-0.1.4-py3.12.egg-info
+[4.320s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs-0.1.4-py3.12.egg-info/top_level.txt
+[4.321s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs-0.1.4-py3.12.egg-info/PKG-INFO
+[4.321s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs-0.1.4-py3.12.egg-info/dependency_links.txt
+[4.321s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs-0.1.4-py3.12.egg-info/SOURCES.txt
+[4.321s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs
+[4.321s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/__init__.py
+[4.321s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.321s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/srv
+[4.321s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/srv/_get_solution_s.c
+[4.321s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/srv/__init__.py
+[4.321s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/srv/_get_solution.py
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/__init__.py
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_property.py
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_sub_trajectory_s.c
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_sub_trajectory.py
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_solution_info_s.c
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_task_description.py
+[4.322s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_stage_statistics_s.c
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_stage_statistics.py
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_property_s.c
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_solution_s.c
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_sub_solution.py
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_stage_description_s.c
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_stage_description.py
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_task_statistics_s.c
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_task_statistics.py
+[4.323s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_solution_info.py
+[4.324s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_task_description_s.c
+[4.324s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_trajectory_execution_info_s.c
+[4.324s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_trajectory_execution_info.py
+[4.324s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_solution.py
+[4.325s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg/_sub_solution_s.c
+[4.325s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.so
+[4.325s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.325s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.so
+[4.325s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/_moveit_task_constructor_msgs_s.ep.rosidl_typesupport_c.c
+[4.326s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/action
+[4.326s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/action/_execute_task_solution.py
+[4.326s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/action/__init__.py
+[4.326s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/action/_execute_task_solution_s.c
+[4.326s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.383s] Listing '/home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs'...
+[4.383s] Compiling '/home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/__init__.py'...
+[4.383s] Listing '/home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/action'...
+[4.383s] Listing '/home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/msg'...
+[4.383s] Listing '/home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/srv'...
+[4.391s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[4.392s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_introspection_c.so
+[4.393s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/python3.12/site-packages/moveit_task_constructor_msgs/moveit_task_constructor_msgs_s__rosidl_typesupport_c.so
+[4.394s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/lib/libmoveit_task_constructor_msgs__rosidl_generator_py.so
+[4.394s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.idl
+[4.394s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.idl
+[4.395s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.idl
+[4.395s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.idl
+[4.395s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.idl
+[4.395s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.idl
+[4.395s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.idl
+[4.395s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.idl
+[4.396s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.idl
+[4.396s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TrajectoryExecutionInfo.idl
+[4.396s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.idl
+[4.396s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.idl
+[4.396s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Property.msg
+[4.396s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/Solution.msg
+[4.397s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SolutionInfo.msg
+[4.397s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageDescription.msg
+[4.397s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/StageStatistics.msg
+[4.397s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubSolution.msg
+[4.397s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/SubTrajectory.msg
+[4.397s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskDescription.msg
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TaskStatistics.msg
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/msg/TrajectoryExecutionInfo.msg
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/srv/GetSolution.srv
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/action/ExecuteTaskSolution.action
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/ament_index/resource_index/package_run_dependencies/moveit_task_constructor_msgs
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/ament_index/resource_index/parent_prefix_path/moveit_task_constructor_msgs
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.sh
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/ament_prefix_path.dsv
+[4.398s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.sh
+[4.399s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/environment/path.dsv
+[4.399s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.bash
+[4.399s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.sh
+[4.399s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.zsh
+[4.399s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/local_setup.dsv
+[4.399s] -- Installing: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.dsv
+[4.399s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/ament_index/resource_index/packages/moveit_task_constructor_msgs
+[4.399s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport.cmake
+[4.400s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cExport-release.cmake
+[4.400s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.400s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[4.400s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_cppExport.cmake
+[4.400s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.401s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[4.401s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.401s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[4.401s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport.cmake
+[4.401s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cExport-release.cmake
+[4.402s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.402s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[4.402s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport.cmake
+[4.402s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgs__rosidl_typesupport_cppExport-release.cmake
+[4.402s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/export_moveit_task_constructor_msgs__rosidl_generator_pyExport-release.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake-extras.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.403s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.404s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig.cmake
+[4.404s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/cmake/moveit_task_constructor_msgsConfig-version.cmake
+[4.404s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_task_constructor_msgs/share/moveit_task_constructor_msgs/package.xml
+[4.407s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_task_constructor_msgs' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_task_constructor_msgs

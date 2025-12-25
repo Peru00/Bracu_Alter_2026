@@ -1,0 +1,149 @@
+[0.011s] Invoking command in '/home/peru0002/ros2_ws/build/kortex_description': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/ros2_kortex/kortex_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/kortex_description
+[1.135s] -- The C compiler identification is GNU 13.3.0
+[1.135s] -- The CXX compiler identification is GNU 13.3.0
+[1.136s] -- Detecting C compiler ABI info
+[1.140s] -- Detecting C compiler ABI info - done
+[1.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.141s] -- Detecting C compile features
+[1.141s] -- Detecting C compile features - done
+[1.141s] -- Detecting CXX compiler ABI info
+[1.141s] -- Detecting CXX compiler ABI info - done
+[1.141s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.141s] -- Detecting CXX compile features
+[1.141s] -- Detecting CXX compile features - done
+[1.142s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.142s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.278s] -- Configuring done (1.2s)
+[1.281s] -- Generating done (0.0s)
+[1.284s] -- Build files have been written to: /home/peru0002/ros2_ws/build/kortex_description
+[1.292s] Invoked command in '/home/peru0002/ros2_ws/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/ros2_kortex/kortex_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/kortex_description
+[1.294s] Invoking command in '/home/peru0002/ros2_ws/build/kortex_description': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/kortex_description -- -j8 -l8
+[1.398s] Invoked command in '/home/peru0002/ros2_ws/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/kortex_description -- -j8 -l8
+[1.400s] Invoking command in '/home/peru0002/ros2_ws/build/kortex_description': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/kortex_description
+[1.426s] -- Install configuration: "Release"
+[1.426s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/arm_link.STL
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/forearm_link.STL
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/base_link.STL
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/shoulder_link.STL
+[1.427s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/lower_wrist_link.STL
+[1.428s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/meshes/upper_wrist_link.STL
+[1.428s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config
+[1.428s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/ros2_controllers.yaml
+[1.429s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/joint_limits.yaml
+[1.429s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/config/twist_limits.yaml
+[1.429s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf
+[1.429s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/kortex.ros2_control.xacro
+[1.430s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_transmission_macro.xacro
+[1.432s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3_lite/6dof/urdf/gen3_lite_macro.xacro
+[1.432s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3
+[1.432s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof
+[1.432s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes
+[1.433s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_with_vision_link.STL
+[1.433s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/forearm_link.STL
+[1.433s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/base_link.STL
+[1.434s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/shoulder_link.STL
+[1.434s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_2_link.STL
+[1.434s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bracelet_no_vision_link.STL
+[1.434s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/bicep_link.STL
+[1.435s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/meshes/spherical_wrist_1_link.STL
+[1.435s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config
+[1.436s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/ros2_controllers.yaml
+[1.436s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/gazebo_initial_joint_positions.yaml
+[1.436s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/joint_limits.yaml
+[1.436s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/config/twist_limits.yaml
+[1.436s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf
+[1.436s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_transmission_macro.xacro
+[1.436s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/kortex.ros2_control.xacro
+[1.437s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/6dof/urdf/gen3_macro.xacro
+[1.437s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof
+[1.437s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes
+[1.437s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.STL
+[1.437s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.STL
+[1.437s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.STL
+[1.438s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.STL
+[1.438s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/shoulder_link.dae
+[1.439s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/base_link.dae
+[1.440s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/end_effector_link.STL
+[1.440s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.STL
+[1.442s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.dae
+[1.444s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_no_vision_link.STL
+[1.446s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.STL
+[1.447s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_1_link.dae
+[1.448s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_2_link.dae
+[1.449s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.STL
+[1.450s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/bracelet_with_vision_link.dae
+[1.456s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/half_arm_2_link.dae
+[1.456s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.dae
+[1.457s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/spherical_wrist_1_link.STL
+[1.457s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/meshes/forearm_link.dae
+[1.460s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config
+[1.460s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/ros2_controllers.yaml
+[1.460s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/gazebo_initial_joint_positions.yaml
+[1.460s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/joint_limits.yaml
+[1.460s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/config/twist_limits.yaml
+[1.461s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf
+[1.461s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_transmission_macro.xacro
+[1.461s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/kortex.ros2_control.xacro
+[1.461s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/arms/gen3/7dof/urdf/gen3_macro.xacro
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/urdf
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/urdf/robotiq_2f_140_macro.xacro
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/LICENSE
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_140/README.md
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f
+[1.462s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes
+[1.463s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/gripper_base_link.STL
+[1.464s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_prox_link.STL
+[1.466s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_prox_link.STL
+[1.468s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/right_finger_dist_link.STL
+[1.469s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/meshes/left_finger_dist_link.STL
+[1.470s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/config
+[1.470s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/config/joint_limits.yaml
+[1.471s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf
+[1.471s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f.ros2_control.xacro
+[1.471s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/GEN3-LITE-GRIPPER_URDF_SIMPLIFIED_V2.urdf
+[1.471s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_macro.xacro
+[1.471s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/gen3_lite_2f/urdf/gen3_lite_2f_transmission_macro.xacro
+[1.472s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85
+[1.472s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/urdf
+[1.472s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/urdf/robotiq_2f_85_macro.xacro
+[1.472s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/LICENSE
+[1.472s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/grippers/robotiq_2f_85/README.md
+[1.473s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/launch
+[1.473s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/launch/view_robot.launch.py
+[1.473s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/multiple_robots
+[1.473s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/multiple_robots/kortex_dual_robots.xacro
+[1.473s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots
+[1.473s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_lite.urdf
+[1.473s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_140.xacro
+[1.474s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/kortex_robot.xacro
+[1.474s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_lite_gen3_lite_2f.xacro
+[1.474s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3.xacro
+[1.474s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_2f85.urdf
+[1.475s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/kinova.urdf.xacro
+[1.475s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/robots/gen3_robotiq_2f_85.xacro
+[1.475s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/rviz
+[1.475s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/rviz/view_robot.rviz
+[1.476s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/config
+[1.476s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/config/initial_positions.yaml
+[1.476s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/ament_index/resource_index/package_run_dependencies/kortex_description
+[1.476s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/ament_index/resource_index/parent_prefix_path/kortex_description
+[1.477s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/environment/ament_prefix_path.sh
+[1.478s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/environment/ament_prefix_path.dsv
+[1.478s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/environment/path.sh
+[1.478s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/environment/path.dsv
+[1.478s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/local_setup.bash
+[1.479s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/local_setup.sh
+[1.479s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/local_setup.zsh
+[1.479s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/local_setup.dsv
+[1.479s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/package.dsv
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/ament_index/resource_index/packages/kortex_description
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig.cmake
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/cmake/kortex_descriptionConfig-version.cmake
+[1.481s] -- Installing: /home/peru0002/ros2_ws/install/kortex_description/share/kortex_description/package.xml
+[1.858s] Invoked command in '/home/peru0002/ros2_ws/build/kortex_description' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/robotiq_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/kortex_description

@@ -1,0 +1,30 @@
+[0.043s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_common
+[0.403s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.418s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.838s] -- Configuring done (0.8s)
+[0.843s] -- Generating done (0.0s)
+[0.847s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_common
+[0.856s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_common -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_common
+[0.857s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_common -- -j8 -l8
+[1.524s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_common -- -j8 -l8
+[1.541s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_common
+[1.557s] -- Install configuration: "Release"
+[1.558s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+[1.558s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+[1.558s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+[1.558s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+[1.558s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/path.sh
+[1.558s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+[1.558s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+[1.559s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+[1.559s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+[1.559s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+[1.559s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+[1.560s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+[1.560s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+[1.560s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+[1.560s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+[1.561s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/package.xml
+[1.561s] -- Up-to-date: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake
+[1.561s] -- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake
+[1.567s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_common

@@ -1,0 +1,19 @@
+[2.027s] Invoking command in '/home/peru0002/ros2_ws/src/bracu_hydra_description-20251223T200716Z-1-001 (2)/bracu_hydra_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bracu_hydra_description build --build-base /home/peru0002/ros2_ws/build/bracu_hydra_description/build install --record /home/peru0002/ros2_ws/build/bracu_hydra_description/install.log --single-version-externally-managed install_data
+[3.424s] running egg_info
+[3.425s] writing ../../../build/bracu_hydra_description/bracu_hydra_description.egg-info/PKG-INFO
+[3.425s] writing dependency_links to ../../../build/bracu_hydra_description/bracu_hydra_description.egg-info/dependency_links.txt
+[3.425s] writing requirements to ../../../build/bracu_hydra_description/bracu_hydra_description.egg-info/requires.txt
+[3.426s] writing top-level names to ../../../build/bracu_hydra_description/bracu_hydra_description.egg-info/top_level.txt
+[3.426s] reading manifest file '../../../build/bracu_hydra_description/bracu_hydra_description.egg-info/SOURCES.txt'
+[3.426s] writing manifest file '../../../build/bracu_hydra_description/bracu_hydra_description.egg-info/SOURCES.txt'
+[3.427s] running build
+[3.428s] running build_py
+[3.429s] running install
+[3.429s] running install_lib
+[3.431s] running install_data
+[3.431s] running install_egg_info
+[3.432s] removing '/home/peru0002/ros2_ws/install/bracu_hydra_description/lib/python3.12/site-packages/bracu_hydra_description-0.0.0-py3.12.egg-info' (and everything under it)
+[3.433s] Copying ../../../build/bracu_hydra_description/bracu_hydra_description.egg-info to /home/peru0002/ros2_ws/install/bracu_hydra_description/lib/python3.12/site-packages/bracu_hydra_description-0.0.0-py3.12.egg-info
+[3.434s] running install_scripts
+[3.435s] writing list of installed files to '/home/peru0002/ros2_ws/build/bracu_hydra_description/install.log'
+[3.437s] Invoked command in '/home/peru0002/ros2_ws/src/bracu_hydra_description-20251223T200716Z-1-001 (2)/bracu_hydra_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/bracu_hydra_description build --build-base /home/peru0002/ros2_ws/build/bracu_hydra_description/build install --record /home/peru0002/ros2_ws/build/bracu_hydra_description/install.log --single-version-externally-managed install_data

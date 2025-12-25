@@ -1,0 +1,83 @@
+[0.045s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/rviz_visual_tools:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/rviz_visual_tools:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/rviz_visual_tools/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_visual_tools
+[0.142s] -- The C compiler identification is GNU 13.3.0
+[0.251s] -- The CXX compiler identification is GNU 13.3.0
+[0.277s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.466s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.467s] -- Detecting C compile features
+[0.468s] -- Detecting C compile features - done
+[0.488s] -- Detecting CXX compiler ABI info
+[0.697s] -- Detecting CXX compiler ABI info - done
+[0.715s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.716s] -- Detecting CXX compile features
+[0.717s] -- Detecting CXX compile features - done
+[0.721s] -- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.726s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.994s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.340s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system 
+[1.357s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.426s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.451s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.517s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.606s] -- Found graph_msgs: 0.2.0 (/opt/ros/jazzy/share/graph_msgs/cmake)
+[1.648s] -- Found moveit_core: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[1.917s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.034s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.151s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.156s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.297s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.327s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.514s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.579s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.772s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.773s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.380s] -- Found moveit_ros_planning: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[3.387s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[3.453s] -- Found rviz_visual_tools: 4.1.4 (/home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake)
+[3.549s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.553s] -- Found OGRE
+[3.553s] --   static     : OFF
+[3.554s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.554s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.554s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.555s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.555s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[3.555s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.556s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[3.556s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.557s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.557s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.557s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.604s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[3.624s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.973s] -- Found X11: /usr/include   
+[3.974s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.492s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.492s] -- Looking for gethostbyname
+[5.116s] -- Looking for gethostbyname - found
+[5.116s] -- Looking for connect
+[5.904s] -- Looking for connect - found
+[5.904s] -- Looking for remove
+[6.757s] -- Looking for remove - found
+[6.758s] -- Looking for shmat
+[7.727s] -- Looking for shmat - found
+[7.727s] -- Looking for IceConnectionNumber in ICE
+[8.761s] -- Looking for IceConnectionNumber in ICE - found
+[9.172s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[10.638s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.857s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.883s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.883s] -- Configured 'flake8' exclude dirs and/or files: 
+[10.893s] -- Added test 'lint_cmake' to check CMake code style
+[10.909s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.923s] -- Added test 'xmllint' to check XML markup files
+[10.948s] -- Configuring done (10.9s)
+[11.678s] -- Generating done (0.5s)
+[11.805s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_visual_tools
+[11.986s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_visual_tools' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/rviz_visual_tools:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/rviz_visual_tools:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/rviz_visual_tools/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_visual_tools
+[11.994s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_visual_tools': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/rviz_visual_tools:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/rviz_visual_tools:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/rviz_visual_tools/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_visual_tools -- -j8 -l8
+[12.457s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[12.468s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[12.474s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m

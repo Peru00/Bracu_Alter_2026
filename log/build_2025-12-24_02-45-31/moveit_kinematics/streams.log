@@ -1,0 +1,73 @@
+[0.051s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_kinematics -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_kinematics
+[0.166s] -- The CXX compiler identification is GNU 13.3.0
+[0.201s] -- Detecting CXX compiler ABI info
+[0.367s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.385s] -- Detecting CXX compile features - done
+[0.388s] -- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.392s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.660s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.021s] -- Found class_loader: 2.7.0 (/opt/ros/jazzy/share/class_loader/cmake)
+[1.062s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[1.071s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.128s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.157s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.188s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.215s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.348s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.354s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.498s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.532s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.570s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.728s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[1.786s] -- Found kdl_parser: 2.11.0 (/opt/ros/jazzy/share/kdl_parser/cmake)
+[1.801s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.803s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.803s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.809s] -- Found moveit_core: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[2.097s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.212s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.852s] -- Found moveit_ros_planning: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.858s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.920s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: program_options system 
+[2.998s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[3.002s] -- Found ros_testing: 0.6.0 (/opt/ros/jazzy/share/ros_testing/cmake)
+[3.006s] -- Found launch_testing_ament_cmake: 3.4.9 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[3.009s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[3.234s] -- Found PythonExtra: /usr/bin/python3  
+[3.237s] -- Found moveit_resources_fanuc_description: 3.1.1 (/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description/share/moveit_resources_fanuc_description/cmake)
+[3.239s] -- Found moveit_resources_fanuc_moveit_config: 3.1.1 (/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config/share/moveit_resources_fanuc_moveit_config/cmake)
+[3.241s] -- Found moveit_resources_panda_description: 3.1.1 (/home/peru0002/ros2_ws/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake)
+[3.243s] -- Found moveit_resources_panda_moveit_config: 3.1.1 (/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake)
+[3.247s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.328s] -- The C compiler identification is GNU 13.3.0
+[3.353s] -- Detecting C compiler ABI info
+[3.569s] -- Detecting C compiler ABI info - done
+[3.585s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.586s] -- Detecting C compile features
+[3.587s] -- Detecting C compile features - done
+[3.596s] -- Found Threads: TRUE  
+[3.622s] -- Configuring done (3.6s)
+[3.805s] -- Generating done (0.1s)
+[3.848s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_kinematics
+[3.886s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_kinematics' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_kinematics -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_kinematics
+[3.888s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_kinematics': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_resources_fanuc_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_kinematics -- -j8 -l8
+[3.999s] [  4%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/peru0002/ros2_ws/build/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit_kinematics/cached_ik_kinematics_parameters.hpp /home/peru0002/ros2_ws/src/moveit2/moveit_kinematics/cached_ik_kinematics_plugin/include/moveit/cached_ik_kinematics_plugin/cached_ik_kinematics_parameters.yaml `[0m
+[4.002s] [  8%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/peru0002/ros2_ws/build/moveit_kinematics/srv_kinematics_plugin/include/moveit_kinematics/srv_kinematics_parameters.hpp /home/peru0002/ros2_ws/src/moveit2/moveit_kinematics/srv_kinematics_plugin/src/srv_kinematics_parameters.yaml `[0m
+[4.007s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.013s] [ 17%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/peru0002/ros2_ws/build/moveit_kinematics/kdl_kinematics_plugin/include/moveit_kinematics/kdl_kinematics_parameters.hpp /home/peru0002/ros2_ws/src/moveit2/moveit_kinematics/kdl_kinematics_plugin/src/kdl_kinematics_parameters.yaml `[0m
+[4.022s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.035s] [ 26%] [32mBuilding CXX object test/CMakeFiles/benchmark_ik.dir/benchmark_ik.cpp.o[0m
+[7.454s] [ 30%] [34m[1mCreating deprecated header file /home/peru0002/ros2_ws/build/moveit_kinematics/cached_ik_kinematics_plugin/include/cached_ik_kinematics_parameters.hpp[0m
+[7.581s] [ 30%] Built target cached_ik_kinematics_parameters
+[7.859s] [ 34%] [34m[1mCreating deprecated header file /home/peru0002/ros2_ws/build/moveit_kinematics/srv_kinematics_plugin/include/srv_kinematics_parameters.hpp[0m
+[7.992s] [ 34%] Built target srv_kinematics_parameters
+[8.190s] [ 39%] [32mBuilding CXX object srv_kinematics_plugin/CMakeFiles/moveit_srv_kinematics_plugin.dir/src/srv_kinematics_plugin.cpp.o[0m
+[8.763s] [ 43%] [34m[1mCreating deprecated header file /home/peru0002/ros2_ws/build/moveit_kinematics/kdl_kinematics_plugin/include/kdl_kinematics_parameters.hpp[0m
+[8.919s] [ 43%] Built target kdl_kinematics_parameters
+[9.121s] [ 47%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/kdl_kinematics_plugin.cpp.o[0m
+[9.130s] [ 52%] [32mBuilding CXX object cached_ik_kinematics_plugin/CMakeFiles/moveit_cached_ik_kinematics_base.dir/src/ik_cache.cpp.o[0m
+[9.131s] [ 56%] [32mBuilding CXX object kdl_kinematics_plugin/CMakeFiles/moveit_kdl_kinematics_plugin.dir/src/chainiksolver_vel_mimic_svd.cpp.o[0m
+[9.651s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.150s] [ 60%] Built target gtest_main

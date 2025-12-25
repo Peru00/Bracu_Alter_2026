@@ -1,0 +1,278 @@
+[0.031s] Invoking command in '/home/peru0002/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rplidar_ros
+[0.142s] -- The C compiler identification is GNU 13.3.0
+[0.240s] -- The CXX compiler identification is GNU 13.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.483s] -- Detecting C compiler ABI info - done
+[0.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.502s] -- Detecting C compile features
+[0.503s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.736s] -- Detecting CXX compiler ABI info - done
+[0.748s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.749s] -- Detecting CXX compile features
+[0.749s] -- Detecting CXX compile features - done
+[0.769s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[1.180s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.299s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.610s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.032s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.101s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.549s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.576s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.888s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.935s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.981s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.629s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/rplidar_ros` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[3.641s] -- Configuring done (3.6s)
+[3.679s] -- Generating done (0.0s)
+[3.689s] -- Build files have been written to: /home/peru0002/ros2_ws/build/rplidar_ros
+[3.704s] Invoked command in '/home/peru0002/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rplidar_ros
+[3.708s] Invoking command in '/home/peru0002/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rplidar_ros -- -j8 -l8
+[3.896s] [  5%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[3.896s] [ 16%] [32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o[0m
+[3.896s] [ 16%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[3.896s] [ 22%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[3.896s] [ 27%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o[0m
+[3.897s] [ 33%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[3.897s] [ 38%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[3.897s] [ 44%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[4.499s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::[01;32m[Ksend[m[K(const void*, size_t)[m[K’:
+[4.499s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.499s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[4.499s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[4.504s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[4.504s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:40[m[K,
+[4.506s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[4.507s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::[01;32m[KsendTo[m[K(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[4.507s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.507s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[4.507s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[4.621s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::[01;32m[Kopen[m[K(const char*, uint32_t, uint32_t)[m[K’:
+[4.622s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.622s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[4.624s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[4.624s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::[01;32m[Kflush[m[K(_u32)[m[K’:
+[4.624s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.624s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[4.625s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[4.625s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::[01;32m[Kwaitforsent[m[K(_u32, size_t*)[m[K’:
+[4.625s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.625s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[4.628s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[4.629s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::[01;32m[Kwaitforrecv[m[K(_u32, size_t*)[m[K’:
+[4.629s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.629s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[4.629s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[4.630s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::[01;32m[Kopen[m[K(const char*, uint32_t, uint32_t)[m[K’:
+[4.630s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.630s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[4.630s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[4.630s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::[01;32m[Kflush[m[K(_u32)[m[K’:
+[4.630s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.631s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[4.634s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[4.635s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::[01;32m[Kwaitforsent[m[K(_u32, size_t*)[m[K’:
+[4.635s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.635s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[4.635s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[4.635s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::[01;32m[Kwaitforrecv[m[K(_u32, size_t*)[m[K’:
+[4.635s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.635s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[4.635s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[4.823s] [ 50%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/hal/thread.cpp.o[0m
+[4.837s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[4.958s] [ 61%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[5.061s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::StreamSocketImpl::[01;32m[Ksend[m[K(const void*, size_t)[m[K’:
+[5.061s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:438:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.062s]   438 |         if ([01;35m[Kans == (int)len[m[K) {
+[5.062s]       |             [01;35m[K~~~~^~~~~~~~~~~[m[K
+[5.071s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[5.072s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/sdkcommon.h:40[m[K,
+[5.072s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[5.072s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::[01;32m[KsendTo[m[K(const rp::net::SocketAddress&, const void*, size_t)[m[K’:
+[5.072s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/arch/linux/net_socket.cpp:726:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.072s]   726 |             assert([01;35m[Kans == (int)len[m[K);
+[5.072s]       |                    [01;35m[K~~~~^~~~~~~~~~~[m[K
+[5.234s] [ 66%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/hal/thread.cpp.o[0m
+[5.545s] [ 72%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/sdk/src/rplidar_driver.cpp.o[0m
+[5.555s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[5.555s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::[01;32m[Kcreate[m[K(thread_proc_t, void*)[m[K’:
+[5.556s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[5.556s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[5.556s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.560s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::[01;32m[Kjoin[m[K(long unsigned int)[m[K’:
+[5.560s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.560s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[5.561s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.715s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[Kreset[m[K(_u32)[m[K’:
+[5.716s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.716s]   121 | u_result RPlidarDriverImplCommon::reset([01;35m[K_u32 timeout[m[K)
+[5.716s]       |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[5.720s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KcheckIfTofLidar[m[K(bool&, _u32)[m[K’:
+[5.720s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.720s]   274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, [01;35m[K_u32 timeout[m[K)
+[5.720s]       |                                                                      [01;35m[K~~~~~^~~~~~~[m[K
+[5.730s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[K_dense_capsuleToNormal[m[K(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[5.731s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[5.731s]   872 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[5.731s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.736s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::[01;32m[K_crc32cal[m[K(_u32, void*, _u16)[m[K’:
+[5.736s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[5.736s]   996 |     _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[5.736s]       |                     [01;35m[K~~^~~~~[m[K
+[5.736s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[K_ultraCapsuleToNormal[m[K(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[5.737s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.737s]  1207 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[5.737s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.737s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.737s]  1215 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[5.737s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.751s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KgetAllSupportedScanModes[m[K(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[5.751s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.751s]  1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, [01;35m[K_u32 timeoutInMs[m[K)
+[5.751s]       |                                                                                                    [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[5.752s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KstartScan[m[K(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[5.752s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.752s]  1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, [01;35m[K_u32 options[m[K, RplidarScanMode* outUsedScanMode)
+[5.752s]       |                                                                              [01;35m[K~~~~~^~~~~~~[m[K
+[5.758s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[Kstop[m[K(_u32)[m[K’:
+[5.758s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.758s]  1774 | u_result RPlidarDriverImplCommon::stop([01;35m[K_u32 timeout[m[K)
+[5.758s]       |                                        [01;35m[K~~~~~^~~~~~~[m[K
+[5.765s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KsetLidarSpinSpeed[m[K(_u16, _u32)[m[K’:
+[5.765s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.765s]  2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, [01;35m[K_u32 timeout[m[K)
+[5.766s]       |                                                               [01;35m[K~~~~~^~~~~~~[m[K
+[5.769s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::[01;32m[Kconnect[m[K(const char*, _u32, _u32)[m[K’:
+[5.769s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.770s]  2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, [01;35m[K_u32 flag[m[K)
+[5.770s]       |                                                                              [01;35m[K~~~~~^~~~[m[K
+[5.770s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::[01;32m[Kconnect[m[K(const char*, _u32, _u32)[m[K’:
+[5.770s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.770s]  2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, [01;35m[K_u32 flag[m[K)
+[5.770s]       |                                                                   [01;35m[K~~~~~^~~~[m[K
+[5.825s] /home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::[01;32m[KascendScanData_[m[K(TNode*, size_t) [35m[K[with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int][m[K[m[K’:
+[5.825s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1994:64:[m[K   required from here
+[5.825s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1960:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.825s]  1960 |     for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[5.826s]       |                         [01;35m[K~~^~~~[m[K
+[5.827s] /home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::[01;32m[KascendScanData_[m[K(TNode*, size_t) [35m[K[with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int][m[K[m[K’:
+[5.827s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1999:67:[m[K   required from here
+[5.829s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1960:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[6.211s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/hal/thread.cpp:43[m[K:
+[6.211s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::[01;32m[Kcreate[m[K(thread_proc_t, void*)[m[K’:
+[6.211s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:48:57:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcast-function-type-Wcast-function-type]8;;[m[K]
+[6.211s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, [01;35m[K(void * (*)(void *))proc[m[K, data);
+[6.212s]       |                                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.212s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::[01;32m[Kjoin[m[K(long unsigned int)[m[K’:
+[6.212s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.213s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[6.213s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[6.691s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[Kreset[m[K(_u32)[m[K’:
+[6.691s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:121:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.691s]   121 | u_result RPlidarDriverImplCommon::reset([01;35m[K_u32 timeout[m[K)
+[6.692s]       |                                         [01;35m[K~~~~~^~~~~~~[m[K
+[6.694s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KcheckIfTofLidar[m[K(bool&, _u32)[m[K’:
+[6.694s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:274:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.694s]   274 | u_result RPlidarDriverImplCommon::checkIfTofLidar(bool & isTofLidar, [01;35m[K_u32 timeout[m[K)
+[6.694s]       |                                                                      [01;35m[K~~~~~^~~~~~~[m[K
+[6.703s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[K_dense_capsuleToNormal[m[K(const rplidar_response_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[6.703s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:872:30:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[6.703s]   872 |             const int dist = [01;35m[Kstatic_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance)[m[K;
+[6.704s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.706s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In function ‘[01m[K_u32 rp::standalone::rplidar::[01;32m[K_crc32cal[m[K(_u32, void*, _u16)[m[K’:
+[6.706s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:996:23:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K-[m[K’ in operand of ‘[01m[K&[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[6.706s]   996 |     _u8 leftBytes = [01;35m[K4 - len[m[K & 0x3;
+[6.706s]       |                     [01;35m[K~~^~~~~[m[K
+[6.709s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[K_ultraCapsuleToNormal[m[K(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[6.709s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1207:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.709s]  1207 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[6.709s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.709s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1215:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.710s]  1215 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[6.710s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[6.718s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KgetAllSupportedScanModes[m[K(std::vector<rp::standalone::rplidar::RplidarScanMode>&, _u32)[m[K’:
+[6.718s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1453:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.718s]  1453 | u_result RPlidarDriverImplCommon::getAllSupportedScanModes(std::vector<RplidarScanMode>& outModes, [01;35m[K_u32 timeoutInMs[m[K)
+[6.718s]       |                                                                                                    [01;35m[K~~~~~^~~~~~~~~~~[m[K
+[6.720s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KstartScan[m[K(bool, bool, _u32, rp::standalone::rplidar::RplidarScanMode*)[m[K’:
+[6.720s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1550:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.720s]  1550 | u_result RPlidarDriverImplCommon::startScan(bool force, bool useTypicalScan, [01;35m[K_u32 options[m[K, RplidarScanMode* outUsedScanMode)
+[6.720s]       |                                                                              [01;35m[K~~~~~^~~~~~~[m[K
+[6.723s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[Kstop[m[K(_u32)[m[K’:
+[6.723s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1774:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.723s]  1774 | u_result RPlidarDriverImplCommon::stop([01;35m[K_u32 timeout[m[K)
+[6.723s]       |                                        [01;35m[K~~~~~^~~~~~~[m[K
+[6.728s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverImplCommon::[01;32m[KsetLidarSpinSpeed[m[K(_u16, _u32)[m[K’:
+[6.728s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2162:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.728s]  2162 | u_result RPlidarDriverImplCommon::setLidarSpinSpeed(_u16 rpm, [01;35m[K_u32 timeout[m[K)
+[6.728s]       |                                                               [01;35m[K~~~~~^~~~~~~[m[K
+[6.730s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverSerial::[01;32m[Kconnect[m[K(const char*, _u32, _u32)[m[K’:
+[6.730s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2240:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.730s]  2240 | u_result RPlidarDriverSerial::connect(const char * port_path, _u32 baudrate, [01;35m[K_u32 flag[m[K)
+[6.730s]       |                                                                              [01;35m[K~~~~~^~~~[m[K
+[6.731s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::standalone::rplidar::RPlidarDriverTCP::[01;32m[Kconnect[m[K(const char*, _u32, _u32)[m[K’:
+[6.731s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:2282:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.731s]  2282 | u_result RPlidarDriverTCP::connect(const char * ipStr, _u32 port, [01;35m[K_u32 flag[m[K)
+[6.731s]       |                                                                   [01;35m[K~~~~~^~~~[m[K
+[6.777s] /home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::[01;32m[KascendScanData_[m[K(TNode*, size_t) [35m[K[with TNode = _rplidar_response_measurement_node_t; u_result = unsigned int; size_t = long unsigned int][m[K[m[K’:
+[6.777s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1994:64:[m[K   required from here
+[6.777s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1960:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[6.777s]  1960 |     for (i = count - 1; [01;35m[Ki >= 0[m[K; i--) {
+[6.777s]       |                         [01;35m[K~~^~~~[m[K
+[6.777s] /home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp: In instantiation of ‘[01m[Ku_result rp::standalone::rplidar::[01;32m[KascendScanData_[m[K(TNode*, size_t) [35m[K[with TNode = rplidar_response_measurement_node_hq_t; u_result = unsigned int; size_t = long unsigned int][m[K[m[K’:
+[6.778s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1999:67:[m[K   required from here
+[6.778s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/sdk/src/rplidar_driver.cpp:1960:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[12.404s] [ 77%] [32m[1mLinking CXX executable rplidarNode[0m
+[12.845s] [ 77%] Built target rplidarNode
+[13.017s] [ 83%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[13.414s] [ 83%] Built target rplidar_composition_node
+[13.471s] [ 88%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o[0m
+[14.938s] [ 94%] [32m[1mLinking CXX executable rplidarNodeClient[0m
+[15.464s] [ 94%] Built target rplidarNodeClient
+[17.242s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[17.559s] [100%] Built target rplidar_composition
+[17.593s] Invoked command in '/home/peru0002/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rplidar_ros -- -j8 -l8
+[17.615s] Invoking command in '/home/peru0002/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rplidar_ros
+[17.640s] -- Install configuration: ""
+[17.641s] -- Execute custom install script
+[17.641s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[17.663s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[17.685s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[17.711s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[17.747s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[17.790s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[17.815s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[17.839s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+[17.877s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[17.903s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[17.930s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[17.950s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[17.982s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[18.009s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[18.031s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[18.053s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp
+[18.086s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/include/visibility.h
+[18.110s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[18.111s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[18.111s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[18.111s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[18.132s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[18.154s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[18.178s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[18.207s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[18.229s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[18.249s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[18.272s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[18.309s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[18.340s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[18.371s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[18.400s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[18.431s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.452s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.479s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[18.511s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[18.533s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[18.561s] Invoked command in '/home/peru0002/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rplidar_ros

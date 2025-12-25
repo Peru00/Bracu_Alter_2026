@@ -1,0 +1,1 @@
+#pragma message("#include \"planning_pipeline_parameters.hpp\" is deprecated. Use #include <moveit_ros_planning/planning_pipeline_parameters.hpp> instead.")

@@ -1,0 +1,57 @@
+[0.067s] Invoking command in '/home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_resources/dual_arm_panda_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config
+[0.162s] -- The C compiler identification is GNU 13.3.0
+[0.266s] -- The CXX compiler identification is GNU 13.3.0
+[0.298s] -- Detecting C compiler ABI info
+[0.507s] -- Detecting C compiler ABI info - done
+[0.525s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.526s] -- Detecting C compile features
+[0.526s] -- Detecting C compile features - done
+[0.555s] -- Detecting CXX compiler ABI info
+[0.880s] -- Detecting CXX compiler ABI info - done
+[0.900s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.903s] -- Detecting CXX compile features
+[0.903s] -- Detecting CXX compile features - done
+[0.909s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.431s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.089s] -- Configuring done (2.0s)
+[2.102s] -- Generating done (0.0s)
+[2.108s] -- Build files have been written to: /home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config
+[2.146s] Invoked command in '/home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_resources/dual_arm_panda_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config
+[2.151s] Invoking command in '/home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config -- -j8 -l8
+[3.609s] Invoked command in '/home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config -- -j8 -l8
+[3.610s] Invoking command in '/home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config
+[3.629s] -- Install configuration: "Release"
+[3.630s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/dual_arm_panda_moveit_config
+[3.630s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/dual_arm_panda_moveit_config
+[3.633s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/environment/ament_prefix_path.sh
+[3.633s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/environment/ament_prefix_path.dsv
+[3.633s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/environment/path.sh
+[3.633s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/environment/path.dsv
+[3.634s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/local_setup.bash
+[3.634s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/local_setup.sh
+[3.634s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/local_setup.zsh
+[3.638s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/local_setup.dsv
+[3.638s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.dsv
+[3.638s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/ament_index/resource_index/packages/dual_arm_panda_moveit_config
+[3.638s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/cmake/dual_arm_panda_moveit_configConfig.cmake
+[3.638s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/cmake/dual_arm_panda_moveit_configConfig-version.cmake
+[3.639s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/package.xml
+[3.639s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/launch
+[3.639s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/launch/demo.launch.py
+[3.639s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/launch/moveit.rviz
+[3.639s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config
+[3.640s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/hand.xacro
+[3.640s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/ompl_planning.yaml
+[3.640s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/ros2_controllers.yaml
+[3.641s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/panda_arm_macro.xacro
+[3.641s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/pilz_cartesian_limits.yaml
+[3.641s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/left_initial_positions.yaml
+[3.641s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/moveit_controllers.yaml
+[3.642s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/joint_limits.yaml
+[3.642s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/panda.ros2_control.xacro
+[3.642s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/panda_hand.ros2_control.xacro
+[3.642s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/panda.urdf.xacro
+[3.642s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/kinematics.yaml
+[3.642s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/right_initial_positions.yaml
+[3.642s] -- Installing: /home/peru0002/ros2_ws/install/dual_arm_panda_moveit_config/share/dual_arm_panda_moveit_config/config/panda.srdf
+[3.654s] Invoked command in '/home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/dual_arm_panda_moveit_config

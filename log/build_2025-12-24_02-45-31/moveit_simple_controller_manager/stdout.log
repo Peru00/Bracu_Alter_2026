@@ -1,0 +1,73 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found moveit_core: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found control_msgs: 5.5.0 (/opt/ros/jazzy/share/control_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+-- Configuring done (3.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_simple_controller_manager
+[ 33%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/follow_joint_trajectory_controller_handle.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/moveit_simple_controller_manager.dir/src/moveit_simple_controller_manager.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libmoveit_simple_controller_manager.so[0m
+[100%] Built target moveit_simple_controller_manager
+-- Install configuration: "Release"
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.14.1
+-- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.14.1" to ""
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/action_based_controller_handle.h
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/gripper_controller_handle.h
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/parallel_gripper_command_controller_handle.hpp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.hpp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/follow_joint_trajectory_controller_handle.h
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/action_based_controller_handle.hpp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/gripper_command_controller_handle.hpp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/empty_controller_handle.h
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/include/moveit_simple_controller_manager/moveit_simple_controller_manager/empty_controller_handle.hpp
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/library_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/moveit_simple_controller_manager_plugin_description.xml
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/ament_index/resource_index/package_run_dependencies/moveit_simple_controller_manager
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/ament_index/resource_index/parent_prefix_path/moveit_simple_controller_manager
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/environment/path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.bash
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.zsh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/local_setup.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/ament_index/resource_index/packages/moveit_simple_controller_manager
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_simple_controller_manager
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerTargetsExport.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerTargetsExport-release.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ConfigExtras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/moveit_simple_controller_managerConfig-version.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/package.xml

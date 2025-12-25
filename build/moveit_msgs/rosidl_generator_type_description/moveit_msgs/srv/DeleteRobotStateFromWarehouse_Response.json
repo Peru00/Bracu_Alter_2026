@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/srv/DeleteRobotStateFromWarehouse_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/srv/DeleteRobotStateFromWarehouse_Response",
+      "hash_string": "RIHS01_40e2e93ef4b78c9297a8ca7533bf8896621a0d4aa4c959b240ca8962cf6a81c1"
+    }
+  ]
+}

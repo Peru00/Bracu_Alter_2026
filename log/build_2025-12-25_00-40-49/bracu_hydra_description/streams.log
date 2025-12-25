@@ -1,0 +1,15 @@
+[2.445s] Invoking command in '/home/peru0002/ros2_ws/build/bracu_hydra_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/peru0002/ros2_ws/build/bracu_hydra_description/build --no-deps symlink_data
+[3.166s] running develop
+[3.623s] running egg_info
+[3.671s] writing bracu_hydra_description.egg-info/PKG-INFO
+[3.671s] writing dependency_links to bracu_hydra_description.egg-info/dependency_links.txt
+[3.672s] writing requirements to bracu_hydra_description.egg-info/requires.txt
+[3.672s] writing top-level names to bracu_hydra_description.egg-info/top_level.txt
+[3.761s] reading manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+[3.762s] writing manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+[3.806s] running build_ext
+[3.806s] Creating /home/peru0002/ros2_ws/install/bracu_hydra_description/lib/python3.12/site-packages/bracu-hydra-description.egg-link (link to .)
+[3.807s] 
+[3.807s] Installed /home/peru0002/ros2_ws/build/bracu_hydra_description
+[3.807s] running symlink_data
+[3.883s] Invoked command in '/home/peru0002/ros2_ws/build/bracu_hydra_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/peru0002/ros2_ws/build/bracu_hydra_description/build --no-deps symlink_data

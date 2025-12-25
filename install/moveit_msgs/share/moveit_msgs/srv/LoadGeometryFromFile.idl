@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/LoadGeometryFromFile.srv
+// generated code does not contain a copyright notice
+
+
+module moveit_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "This service loads CollisionObjects from a .scene file into a PlanningScene")
+    struct LoadGeometryFromFile_Request {
+      string file_path_and_name;
+    };
+    struct LoadGeometryFromFile_Response {
+      boolean success;
+    };
+  };
+};

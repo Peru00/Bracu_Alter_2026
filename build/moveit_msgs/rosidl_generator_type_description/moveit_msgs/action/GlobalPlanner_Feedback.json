@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/action/GlobalPlanner_Feedback",
+      "fields": [
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/action/GlobalPlanner_Feedback",
+      "hash_string": "RIHS01_735494082c81dcb6366ac93804794cd03f3cb83ecdf77e390cf6ac917a500c4a"
+    }
+  ]
+}

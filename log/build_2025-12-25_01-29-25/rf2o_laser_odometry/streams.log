@@ -1,0 +1,48 @@
+[0.030s] Invoking command in '/home/peru0002/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rf2o_laser_odometry
+[0.064s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.420s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.435s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.483s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.496s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.519s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.651s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.868s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.886s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.906s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.911s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.912s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.076s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.106s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.380s] -- Configuring done (1.3s)
+[1.407s] -- Generating done (0.0s)
+[1.415s] -- Build files have been written to: /home/peru0002/ros2_ws/build/rf2o_laser_odometry
+[1.430s] Invoked command in '/home/peru0002/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rf2o_laser_odometry
+[1.431s] Invoking command in '/home/peru0002/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rf2o_laser_odometry -- -j8 -l8
+[1.595s] [ 40%] Built target rf2o_laser_odometry
+[1.596s] [ 60%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[3.319s] [100%] Built target rf2o_laser_odometry_node
+[3.349s] Invoked command in '/home/peru0002/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rf2o_laser_odometry -- -j8 -l8
+[3.372s] Invoking command in '/home/peru0002/ros2_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rf2o_laser_odometry
+[3.401s] -- Install configuration: ""
+[3.402s] -- Execute custom install script
+[3.402s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[3.432s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[3.456s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[3.483s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[3.515s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[3.551s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[3.572s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[3.598s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[3.624s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[3.656s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[3.677s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[3.702s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[3.730s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[3.755s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[3.777s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[3.798s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[3.820s] -- Symlinking: /home/peru0002/ros2_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[3.852s] Invoked command in '/home/peru0002/ros2_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rf2o_laser_odometry

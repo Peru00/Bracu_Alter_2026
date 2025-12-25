@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "moveit_msgs__py",
+		"source" : "/home/peru0002/ros2_ws/build/moveit_msgs/moveit_msgs__py"
+	}
+}

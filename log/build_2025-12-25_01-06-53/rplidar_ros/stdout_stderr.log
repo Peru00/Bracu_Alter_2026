@@ -1,0 +1,67 @@
+[ 11%] Built target rplidarNodeClient
+[ 22%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:46[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[ 27%] [32m[1mLinking CXX executable rplidarNode[0m
+[ 55%] Built target rplidarNode
+[ 61%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[ 88%] Built target rplidar_composition_node
+[ 94%] [32m[1mLinking CXX executable rplidar_composition[0m
+[100%] Built target rplidar_composition
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/include/visibility.h
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+-- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+-- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml

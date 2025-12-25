@@ -1,0 +1,1 @@
+#pragma message("#include \"moveit_acceleration_filter_parameters.hpp\" is deprecated. Use #include <moveit_core/moveit_acceleration_filter_parameters.hpp> instead.")

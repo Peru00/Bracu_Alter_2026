@@ -1,0 +1,256 @@
+[0.047s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rviz_visual_tools
+[1.165s] -- The C compiler identification is GNU 13.3.0
+[1.167s] -- The CXX compiler identification is GNU 13.3.0
+[1.168s] -- Detecting C compiler ABI info
+[1.168s] -- Detecting C compiler ABI info - done
+[1.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.169s] -- Detecting C compile features
+[1.169s] -- Detecting C compile features - done
+[1.170s] -- Detecting CXX compiler ABI info
+[1.170s] -- Detecting CXX compiler ABI info - done
+[1.170s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.170s] -- Detecting CXX compile features
+[1.171s] -- Detecting CXX compile features - done
+[1.171s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.171s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.172s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.198s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.224s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.441s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.596s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.638s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.675s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.784s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.845s] -- Found rviz_ogre_vendor: 14.1.17 (/opt/ros/jazzy/share/rviz_ogre_vendor/cmake)
+[1.846s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.850s] -- Found OGRE
+[1.850s] --   static     : OFF
+[1.850s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.850s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.850s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.851s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.851s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.851s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.851s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.851s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.851s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.852s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.852s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.895s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.913s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.232s] -- Found X11: /usr/include   
+[2.233s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.387s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.388s] -- Looking for gethostbyname
+[2.560s] -- Looking for gethostbyname - found
+[2.560s] -- Looking for connect
+[2.790s] -- Looking for connect - found
+[2.791s] -- Looking for remove
+[2.996s] -- Looking for remove - found
+[2.997s] -- Looking for shmat
+[3.223s] -- Looking for shmat - found
+[3.223s] -- Looking for IceConnectionNumber in ICE
+[3.445s] -- Looking for IceConnectionNumber in ICE - found
+[3.451s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[3.588s] -- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)
+[3.628s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[3.695s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[3.743s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[3.748s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/jazzy/share/eigen_stl_containers/cmake)
+[3.769s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.778s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[3.783s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[3.793s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[3.973s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[3.994s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.000s] -- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+[4.011s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[4.030s] -- Found rviz_common: 14.1.17 (/opt/ros/jazzy/share/rviz_common/cmake)
+[4.156s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[4.172s] -- Found rviz_default_plugins: 14.1.17 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[4.443s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[4.450s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.455s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.623s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.625s] -- Found Threads: TRUE  
+[4.822s] -- Configuring done (4.8s)
+[5.090s] -- Generating done (0.2s)
+[5.133s] -- Build files have been written to: /home/peru0002/ros2_ws/build/rviz_visual_tools
+[5.168s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rviz_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rviz_visual_tools
+[5.168s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rviz_visual_tools -- -j8 -l8
+[7.012s] [  0%] Built target gtest_main_autogen_timestamp_deps
+[7.012s] [  0%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[7.012s] [  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[7.013s] [  0%] Built target gtest_autogen_timestamp_deps
+[7.013s] [  2%] [34m[1mAutomatic MOC for target gtest_main[0m
+[7.016s] [  4%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[7.016s] [  7%] [34m[1mAutomatic MOC for target gtest[0m
+[7.016s] [  9%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[7.016s] [  9%] Built target rviz_visual_tools_remote_control_autogen
+[7.017s] [  9%] Built target gtest_autogen
+[7.017s] [  9%] Built target gtest_main_autogen
+[7.017s] [ 12%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/rviz_visual_tools_remote_control_autogen/mocs_compilation.cpp.o[0m
+[7.017s] [ 14%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_remote_control.dir/src/remote_control.cpp.o[0m
+[7.017s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/gtest_autogen/mocs_compilation.cpp.o[0m
+[7.017s] [ 19%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[7.017s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.018s] [ 24%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/gtest_main_autogen/mocs_compilation.cpp.o[0m
+[7.018s] [ 24%] Built target rviz_visual_tools_gui_autogen
+[7.018s] [ 26%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/rviz_visual_tools_gui.cpp.o[0m
+[7.018s] [ 31%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/remote_control.cpp.o[0m
+[7.018s] [ 31%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/src/key_tool.cpp.o[0m
+[7.018s] [ 34%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_gui.dir/rviz_visual_tools_gui_autogen/mocs_compilation.cpp.o[0m
+[7.272s] [ 36%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.541s] [ 39%] Built target gtest_main
+[31.707s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[31.850s] [ 43%] Built target gtest
+[33.133s] [ 46%] [32m[1mLinking CXX shared library librviz_visual_tools_remote_control.so[0m
+[33.159s] [ 48%] [32m[1mLinking CXX shared library librviz_visual_tools_gui.so[0m
+[33.554s] [ 48%] Built target rviz_visual_tools_remote_control
+[33.595s] [ 48%] Built target rviz_visual_tools_autogen_timestamp_deps
+[33.633s] [ 51%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[33.693s] [ 51%] Built target rviz_visual_tools_autogen
+[33.733s] [ 53%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/rviz_visual_tools.cpp.o[0m
+[33.734s] [ 56%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/rviz_visual_tools_autogen/mocs_compilation.cpp.o[0m
+[33.739s] [ 58%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools.dir/src/tf_visual_tools.cpp.o[0m
+[37.188s] [ 58%] Built target rviz_visual_tools_gui
+[62.056s] In file included from [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:346[m[K,
+[62.057s]                  from [01m[K/usr/include/eigen3/Eigen/Core:22[m[K,
+[62.057s]                  from [01m[K/usr/include/eigen3/Eigen/Geometry:11[m[K,
+[62.057s]                  from [01m[K/home/peru0002/ros2_ws/src/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp:45[m[K,
+[62.057s]                  from [01m[K/home/peru0002/ros2_ws/src/rviz_visual_tools/src/rviz_visual_tools.cpp:42[m[K:
+[62.057s] In function ‘[01m[K__m128d[01;32m[K _mm_loadu_pd[m[K(const double*)[m[K’,
+[62.057s]     inlined from ‘[01m[KPacket Eigen::internal::[01;32m[Kploadu[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = __vector(2) double][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:746:22[m[K,
+[62.057s]     inlined from ‘[01m[KPacket Eigen::internal::[01;32m[Kploadt[m[K(const typename unpacket_traits<T>::type*) [35m[K[with Packet = __vector(2) double; int Alignment = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:969:26[m[K,
+[62.058s]     inlined from ‘[01m[KPacketType Eigen::internal::mapbase_evaluator<Derived, PlainObjectType>::[01;32m[Kpacket[m[K(Eigen::Index, Eigen::Index) const [35m[K[with int LoadMode = 0; PacketType = __vector(2) double; Derived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; PlainObjectType = Eigen::Matrix<double, 3, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:937:50[m[K,
+[62.058s]     inlined from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::[01;32m[KassignPacket[m[K(Eigen::Index, Eigen::Index) [35m[K[with int StoreMode = 0; int LoadMode = 0; PacketType = __vector(2) double; DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:675:116[m[K,
+[62.058s]     inlined from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::[01;32m[KassignPacketByOuterInner[m[K(Eigen::Index, Eigen::Index) [35m[K[with int StoreMode = 0; int LoadMode = 0; PacketType = __vector(2) double; DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:689:48[m[K,
+[62.058s]     inlined from ‘[01m[Kstatic void Eigen::internal::copy_using_evaluator_innervec_CompleteUnrolling<Kernel, Index, Stop>::[01;32m[Krun[m[K(Kernel&) [35m[K[with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >, Eigen::internal::assign_op<double, double>, 0>; int Index = 0; int Stop = 2][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:279:85[m[K,
+[62.058s]     inlined from ‘[01m[Kstatic void Eigen::internal::dense_assignment_loop<Kernel, 3, 2>::[01;32m[Krun[m[K(Kernel&) [35m[K[with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >, Eigen::internal::assign_op<double, double>, 0>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:455:81[m[K,
+[62.058s]     inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_dense_assignment_loop[m[K(DstXprType&, const SrcXprType&, const Functor&) [35m[K[with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Functor = assign_op<double, double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:785:37[m[K,
+[62.058s]     inlined from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::[01;32m[Krun[m[K(DstXprType&, const SrcXprType&, const Functor&) [35m[K[with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:954:31[m[K,
+[62.058s]     inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_assignment_no_alias[m[K(Dst&, const Src&, const Func&) [35m[K[with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Func = assign_op<double, double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49[m[K,
+[62.059s]     inlined from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::[01;32m[K_set_noalias[m[K(const Eigen::DenseBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Derived = Eigen::Matrix<double, 3, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41[m[K,
+[62.059s]     inlined from ‘[01m[KEigen::PlainObjectBase<Derived>::[01;32m[KPlainObjectBase[m[K(const Eigen::DenseBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Derived = Eigen::Matrix<double, 3, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19[m[K,
+[62.059s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::[01;32m[KMatrix[m[K(const Eigen::EigenBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29[m[K,
+[62.059s]     inlined from ‘[01m[KDerived& Eigen::QuaternionBase<Derived>::[01;32m[KsetFromTwoVectors[m[K(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) [35m[K[with Derived1 = Eigen::Matrix<double, 3, 1>; Derived2 = Eigen::Matrix<double, 3, 1>; Derived = Eigen::Quaternion<double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:658:13[m[K,
+[62.059s]     inlined from ‘[01m[Kstatic Eigen::Quaternion<_Scalar, _Options> Eigen::Quaternion<Scalar, Options>::[01;32m[KFromTwoVectors[m[K(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) [35m[K[with Derived1 = Eigen::Matrix<double, 3, 1>; Derived2 = Eigen::Matrix<double, 3, 1>; _Scalar = double; int _Options = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:708:27[m[K,
+[62.059s]     inlined from ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishABCDPlane[m[K(double, double, double, double, rviz_visual_tools::Colors, double, double)[m[K’ at [01m[K/home/peru0002/ros2_ws/src/rviz_visual_tools/src/rviz_visual_tools.cpp:1035:67[m[K:
+[62.059s] [01m[K/usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h:134:24:[m[K [01;35m[Kwarning: [m[K‘[01m[K*(__m128d_u*)((char*)&svd + offsetof(Eigen::JacobiSVD<Eigen::Matrix<double, 2, 3, 0, 2, 3>, 2>,Eigen::JacobiSVD<Eigen::Matrix<double, 2, 3, 0, 2, 3>, 2>::<unnamed>.Eigen::SVDBase<Eigen::JacobiSVD<Eigen::Matrix<double, 2, 3, 0, 2, 3>, 2> >::m_matrixV.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[6]))[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[62.060s]   134 |   return *(__m128d_u *)[01;35m[K__P[m[K;
+[62.060s]       |                        [01;35m[K^~~[m[K
+[62.060s] In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42[m[K:
+[62.060s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:[m[K In member function ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishABCDPlane[m[K(double, double, double, double, rviz_visual_tools::Colors, double, double)[m[K’:
+[62.060s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:657:36:[m[K [01;36m[Knote: [m[K‘[01m[Ksvd[m[K’ declared here
+[62.060s]   657 |     JacobiSVD<Matrix<Scalar,2,3> > [01;36m[Ksvd[m[K(m, ComputeFullV);
+[62.060s]       |                                    [01;36m[K^~~[m[K
+[62.060s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:277[m[K:
+[62.060s] In member function ‘[01m[KEigen::internal::mapbase_evaluator<Derived, PlainObjectType>::CoeffReturnType Eigen::internal::mapbase_evaluator<Derived, PlainObjectType>::[01;32m[Kcoeff[m[K(Eigen::Index, Eigen::Index) const [35m[K[with Derived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; PlainObjectType = Eigen::Matrix<double, 3, 1>][m[K[m[K’,
+[62.061s]     inlined from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::[01;32m[KassignCoeff[m[K(Eigen::Index, Eigen::Index) [35m[K[with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:654:63[m[K,
+[62.061s]     inlined from ‘[01m[Kvoid Eigen::internal::generic_dense_assignment_kernel<DstEvaluatorTypeT, SrcEvaluatorTypeT, Functor, Version>::[01;32m[KassignCoeffByOuterInner[m[K(Eigen::Index, Eigen::Index) [35m[K[with DstEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >; SrcEvaluatorTypeT = Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >; Functor = Eigen::internal::assign_op<double, double>; int Version = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:668:16[m[K,
+[62.061s]     inlined from ‘[01m[Kstatic void Eigen::internal::copy_using_evaluator_DefaultTraversal_CompleteUnrolling<Kernel, Index, Stop>::[01;32m[Krun[m[K(Kernel&) [35m[K[with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >, Eigen::internal::assign_op<double, double>, 0>; int Index = 2; int Stop = 3][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:211:35[m[K,
+[62.061s]     inlined from ‘[01m[Kstatic void Eigen::internal::dense_assignment_loop<Kernel, 3, 2>::[01;32m[Krun[m[K(Kernel&) [35m[K[with Kernel = Eigen::internal::generic_dense_assignment_kernel<Eigen::internal::evaluator<Eigen::Matrix<double, 3, 1> >, Eigen::internal::evaluator<Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true> >, Eigen::internal::assign_op<double, double>, 0>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:456:92[m[K,
+[62.061s]     inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_dense_assignment_loop[m[K(DstXprType&, const SrcXprType&, const Functor&) [35m[K[with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Functor = assign_op<double, double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:785:37[m[K,
+[62.061s]     inlined from ‘[01m[Kstatic void Eigen::internal::Assignment<DstXprType, SrcXprType, Functor, Eigen::internal::Dense2Dense, Weak>::[01;32m[Krun[m[K(DstXprType&, const SrcXprType&, const Functor&) [35m[K[with DstXprType = Eigen::Matrix<double, 3, 1>; SrcXprType = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Functor = Eigen::internal::assign_op<double, double>; Weak = void][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:954:31[m[K,
+[62.061s]     inlined from ‘[01m[Kvoid Eigen::internal::[01;32m[Kcall_assignment_no_alias[m[K(Dst&, const Src&, const Func&) [35m[K[with Dst = Eigen::Matrix<double, 3, 1>; Src = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Func = assign_op<double, double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/AssignEvaluator.h:890:49[m[K,
+[62.062s]     inlined from ‘[01m[KDerived& Eigen::PlainObjectBase<Derived>::[01;32m[K_set_noalias[m[K(const Eigen::DenseBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Derived = Eigen::Matrix<double, 3, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:797:41[m[K,
+[62.062s]     inlined from ‘[01m[KEigen::PlainObjectBase<Derived>::[01;32m[KPlainObjectBase[m[K(const Eigen::DenseBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; Derived = Eigen::Matrix<double, 3, 1>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:594:19[m[K,
+[62.062s]     inlined from ‘[01m[KEigen::Matrix<_Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols>::[01;32m[KMatrix[m[K(const Eigen::EigenBase<OtherDerived>&) [35m[K[with OtherDerived = Eigen::Block<const Eigen::Matrix<double, 3, 3>, 3, 1, true>; _Scalar = double; int _Rows = 3; int _Cols = 1; int _Options = 0; int _MaxRows = 3; int _MaxCols = 1][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:423:29[m[K,
+[62.062s]     inlined from ‘[01m[KDerived& Eigen::QuaternionBase<Derived>::[01;32m[KsetFromTwoVectors[m[K(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) [35m[K[with Derived1 = Eigen::Matrix<double, 3, 1>; Derived2 = Eigen::Matrix<double, 3, 1>; Derived = Eigen::Quaternion<double>][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:658:13[m[K,
+[62.062s]     inlined from ‘[01m[Kstatic Eigen::Quaternion<_Scalar, _Options> Eigen::Quaternion<Scalar, Options>::[01;32m[KFromTwoVectors[m[K(const Eigen::MatrixBase<OtherDerived>&, const Eigen::MatrixBase<OtherDerived>&) [35m[K[with Derived1 = Eigen::Matrix<double, 3, 1>; Derived2 = Eigen::Matrix<double, 3, 1>; _Scalar = double; int _Options = 0][m[K[m[K’ at [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:708:27[m[K,
+[62.062s]     inlined from ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishABCDPlane[m[K(double, double, double, double, rviz_visual_tools::Colors, double, double)[m[K’ at [01m[K/home/peru0002/ros2_ws/src/rviz_visual_tools/src/rviz_visual_tools.cpp:1035:67[m[K:
+[62.062s] [01m[K/usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:911:56:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksvd.Eigen::JacobiSVD<Eigen::Matrix<double, 2, 3, 0, 2, 3>, 2>::<unnamed>.Eigen::SVDBase<Eigen::JacobiSVD<Eigen::Matrix<double, 2, 3, 0, 2, 3>, 2> >::m_matrixV.Eigen::Matrix<double, 3, 3, 0, 3, 3>::<unnamed>.Eigen::PlainObjectBase<Eigen::Matrix<double, 3, 3, 0, 3, 3> >::m_storage.Eigen::DenseStorage<double, 9, 3, 3, 0>::m_data.Eigen::internal::plain_array<double, 9, 0, 0>::array[8][m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+[62.062s]   911 |     return m_data[col * colStride() + row * rowStride()[01;35m[K][m[K;
+[62.063s]       |                                                        [01;35m[K^[m[K
+[62.063s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:[m[K In member function ‘[01m[Kbool rviz_visual_tools::RvizVisualTools::[01;32m[KpublishABCDPlane[m[K(double, double, double, double, rviz_visual_tools::Colors, double, double)[m[K’:
+[62.063s] [01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:657:36:[m[K [01;36m[Knote: [m[K‘[01m[Ksvd[m[K’ declared here
+[62.063s]   657 |     JacobiSVD<Matrix<Scalar,2,3> > [01;36m[Ksvd[m[K(m, ComputeFullV);
+[62.063s]       |                                    [01;36m[K^~~[m[K
+[62.509s] [ 60%] [32m[1mLinking CXX shared library librviz_visual_tools.so[0m
+[62.774s] [ 60%] Built target rviz_visual_tools
+[62.806s] [ 60%] Built target rviz_visual_tools_demo_autogen_timestamp_deps
+[62.806s] [ 60%] Built target rviz_visual_tools_rvt_test_autogen_timestamp_deps
+[62.808s] [ 60%] Built target rviz_visual_tools_imarker_simple_autogen_timestamp_deps
+[62.839s] [ 63%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[62.839s] [ 65%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[62.839s] [ 68%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[62.887s] [ 68%] Built target rviz_visual_tools_rvt_test_autogen
+[62.888s] [ 68%] Built target rviz_visual_tools_imarker_simple_autogen
+[62.894s] [ 68%] Built target rviz_visual_tools_demo_autogen
+[62.923s] [ 73%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/src/imarker_simple.cpp.o[0m
+[62.924s] [ 73%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/rviz_visual_tools_rvt_test_autogen/mocs_compilation.cpp.o[0m
+[62.934s] [ 75%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple.dir/rviz_visual_tools_imarker_simple_autogen/mocs_compilation.cpp.o[0m
+[62.942s] [ 78%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_rvt_test.dir/tests/rvt_test.cpp.o[0m
+[62.949s] [ 80%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/rviz_visual_tools_demo_autogen/mocs_compilation.cpp.o[0m
+[62.955s] [ 82%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_demo.dir/src/rviz_visual_tools_demo.cpp.o[0m
+[73.219s] [ 85%] [32m[1mLinking CXX shared library librviz_visual_tools_imarker_simple.so[0m
+[73.594s] [ 87%] [32m[1mLinking CXX executable rviz_visual_tools_demo[0m
+[73.613s] [ 87%] Built target rviz_visual_tools_imarker_simple
+[73.684s] [ 87%] Built target rviz_visual_tools_imarker_simple_demo_autogen_timestamp_deps
+[73.732s] [ 90%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[73.816s] [ 90%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[73.896s] [ 92%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/rviz_visual_tools_imarker_simple_demo_autogen/mocs_compilation.cpp.o[0m
+[73.898s] [ 95%] [32mBuilding CXX object CMakeFiles/rviz_visual_tools_imarker_simple_demo.dir/src/imarker_simple_demo.cpp.o[0m
+[73.959s] [ 95%] Built target rviz_visual_tools_demo
+[75.175s] [ 97%] [32m[1mLinking CXX executable rviz_visual_tools_rvt_test[0m
+[75.701s] [ 97%] Built target rviz_visual_tools_rvt_test
+[83.724s] [100%] [32m[1mLinking CXX executable rviz_visual_tools_imarker_simple_demo[0m
+[84.054s] [100%] Built target rviz_visual_tools_imarker_simple_demo
+[84.083s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rviz_visual_tools -- -j8 -l8
+[84.087s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rviz_visual_tools
+[84.099s] -- Install configuration: "Release"
+[84.100s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[84.104s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[84.106s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so" to ""
+[84.106s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[84.112s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so" to ""
+[84.112s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[84.118s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so" to ""
+[84.118s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[84.119s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so" to ""
+[84.121s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[84.122s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo" to ""
+[84.122s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[84.123s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo" to ""
+[84.124s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include
+[84.124s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools
+[84.124s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[84.124s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[84.125s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[84.125s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[84.125s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[84.125s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[84.126s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[84.128s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[84.128s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[84.132s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[84.135s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[84.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[84.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[84.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[84.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[84.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[84.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[84.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[84.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[84.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[84.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[84.140s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[84.141s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[84.141s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[84.141s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[84.141s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[84.142s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[84.142s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[84.146s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-release.cmake
+[84.147s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[84.149s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[84.149s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[84.150s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[84.150s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[84.150s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[84.150s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[84.158s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rviz_visual_tools

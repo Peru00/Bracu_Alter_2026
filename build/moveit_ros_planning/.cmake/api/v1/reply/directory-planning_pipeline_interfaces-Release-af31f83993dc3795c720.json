@@ -1,0 +1,62 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"planning_pipeline_interfaces/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/moveit_ros_planning",
+			"paths" : 
+			[
+				{
+					"from" : "planning_pipeline_interfaces/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/moveit_ros_planning",
+			"paths" : 
+			[
+				"/home/peru0002/ros2_ws/build/moveit_ros_planning/planning_pipeline_interfaces/moveit_planning_pipeline_interfaces_export.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "planning_pipeline_interfaces",
+		"source" : "planning_pipeline_interfaces"
+	}
+}

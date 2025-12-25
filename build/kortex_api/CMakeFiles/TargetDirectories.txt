@@ -1,0 +1,9 @@
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/uninstall.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/kortex_api_uninstall.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/test.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/edit_cache.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/rebuild_cache.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/list_install_components.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/install.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/install/local.dir
+/home/peru0002/ros2_ws/build/kortex_api/CMakeFiles/install/strip.dir

@@ -1,0 +1,66 @@
+[0.025s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rviz_marker_tools
+[0.176s] -- The C compiler identification is GNU 13.3.0
+[0.263s] -- The CXX compiler identification is GNU 13.3.0
+[0.307s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.505s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.505s] -- Detecting C compile features
+[0.506s] -- Detecting C compile features - done
+[0.524s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.709s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.710s] -- Detecting CXX compile features
+[0.711s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.973s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.168s] -- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[1.345s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.422s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.455s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.485s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.679s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.686s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.878s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.919s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.966s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.118s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[2.408s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[2.518s] -- Configuring done (2.5s)
+[2.553s] -- Generating done (0.0s)
+[2.560s] -- Build files have been written to: /home/peru0002/ros2_ws/build/rviz_marker_tools
+[2.585s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rviz_marker_tools
+[2.585s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rviz_marker_tools -- -j8 -l8
+[2.868s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[21.182s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[22.029s] [100%] Built target rviz_marker_tools
+[22.084s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rviz_marker_tools -- -j8 -l8
+[22.085s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_marker_tools': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rviz_marker_tools
+[22.118s] -- Install configuration: "Release"
+[22.118s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/include
+[22.119s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools
+[22.119s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[22.119s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[22.123s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[22.123s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[22.123s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[22.124s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[22.125s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[22.125s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[22.125s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[22.129s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[22.129s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[22.130s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[22.133s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[22.133s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[22.133s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[22.133s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[22.135s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[22.135s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[22.136s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[22.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[22.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[22.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[22.137s] -- Installing: /home/peru0002/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[22.148s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_marker_tools' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rviz_marker_tools

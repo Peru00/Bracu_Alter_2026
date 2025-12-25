@@ -1,0 +1,36 @@
+first run :
+ros2 launch slam_launch complete_slam.launch.py --this will run the odomettry node 
+
+steps2:
+
+ls /dev/ttyUSB* 
+
+--find the usb port this should give output like /dev/ttyUSB0 or /dev/ttyUSB1
+
+give permission :
+
+sudo chmod 777 /dev/ttyUSB0 or /dev/ttyUSB1
+
+then run :
+
+ros2 launch slam_launch complete_slam.launch.py
+
+steps3:
+
+rviz2
+
+then click the add button then click map in map chnage the topic to /map
+
+Setps 4:
+save the map by using this command 
+
+~/ros2_ws/src/slam_launch/scripts/save_map.sh my_room
+-- here insted of my room type the eviorment name 
+
+step 5: -- if you want to use the map for localization 
+
+ros2 launch slam_launch localization.launch.py map:=~/ros2_ws/maps/my_room
+
+
+
+

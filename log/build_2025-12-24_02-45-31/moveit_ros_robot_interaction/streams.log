@@ -1,0 +1,59 @@
+[0.043s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_ros/robot_interaction -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_ros_robot_interaction
+[0.154s] -- The CXX compiler identification is GNU 13.3.0
+[0.185s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.368s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.370s] -- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[0.375s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.619s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.970s] -- Found moveit_core: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[1.267s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.388s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[1.450s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.473s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.636s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.641s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.769s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.798s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.839s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.971s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.022s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.215s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.215s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.699s] -- Found moveit_ros_planning: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.706s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.763s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[2.775s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.953s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.956s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.179s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.179s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.378s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.391s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[3.398s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.471s] -- The C compiler identification is GNU 13.3.0
+[3.496s] -- Detecting C compiler ABI info
+[3.726s] -- Detecting C compiler ABI info - done
+[3.748s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.749s] -- Detecting C compile features
+[3.750s] -- Detecting C compile features - done
+[3.758s] -- Found Threads: TRUE  
+[3.774s] -- Configuring done (3.7s)
+[3.876s] -- Generating done (0.1s)
+[3.895s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_ros_robot_interaction
+[3.925s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_ros_robot_interaction' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_ros/robot_interaction -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_ros_robot_interaction
+[3.926s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_ros_robot_interaction': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_ros_planning/lib:/home/peru0002/ros2_ws/install/moveit_ros_occupancy_map_monitor/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:/home/peru0002/ros2_ws/install/moveit_configs_utils/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_ros_robot_interaction -- -j8 -l8
+[4.070s] [  7%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interactive_marker_helpers.cpp.o[0m
+[4.070s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options.cpp.o[0m
+[4.072s] [ 23%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/locked_robot_state.cpp.o[0m
+[4.078s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/robot_interaction.cpp.o[0m
+[4.094s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.095s] [ 46%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/kinematic_options_map.cpp.o[0m
+[4.106s] [ 53%] [32mBuilding CXX object CMakeFiles/moveit_robot_interaction.dir/src/interaction_handler.cpp.o[0m
+[4.121s] [ 61%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[10.120s] [ 69%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.617s] [ 69%] Built target gtest_main

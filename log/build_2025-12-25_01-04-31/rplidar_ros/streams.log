@@ -1,0 +1,132 @@
+[0.033s] Invoking command in '/home/peru0002/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rplidar_ros
+[0.061s] -- Found ament_cmake_auto: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.378s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.389s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.567s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.579s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.601s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.728s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.223s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/rplidar_ros` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.228s] -- Configuring done (1.2s)
+[1.267s] -- Generating done (0.0s)
+[1.278s] -- Build files have been written to: /home/peru0002/ros2_ws/build/rplidar_ros
+[1.292s] Invoked command in '/home/peru0002/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rplidar_ros
+[1.296s] Invoking command in '/home/peru0002/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rplidar_ros -- -j8 -l8
+[1.471s] [  5%] [32mBuilding CXX object CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o[0m
+[1.471s] [ 16%] [32mBuilding CXX object CMakeFiles/rplidarNode.dir/src/node.cpp.o[0m
+[1.471s] [ 16%] [32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o[0m
+[4.514s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[4.514s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[4.515s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:36[m[K:
+[4.515s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.515s]    59 |     _u8 data[[01;35m[K0[m[K];
+[4.515s]       |              [01;35m[K^[m[K
+[4.515s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[4.515s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:46[m[K:
+[4.515s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.516s]    59 |     _u8 data[[01;35m[K0[m[K];
+[4.516s]       |              [01;35m[K^[m[K
+[4.516s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[4.516s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.516s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[4.516s]       |                  [01;35m[K^[m[K
+[4.516s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[4.516s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.517s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[4.517s]       |                  [01;35m[K^[m[K
+[4.528s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool[01;32m[K stop_motor[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[4.528s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:169:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.528s]   169 | bool stop_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.528s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.529s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:170:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.529s]   170 |                 [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+[4.529s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.529s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kbool[01;32m[K start_motor[m[K(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[4.529s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:181:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.529s]   181 | bool start_motor([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[4.530s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.530s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:182:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.530s]   182 |                  [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> res[m[K)
+[4.530s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.566s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[4.567s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/node.cpp:362:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.567s]   362 |                     for( ; [01;35m[Ki < count[m[K; i++ ) {
+[4.567s]       |                            [01;35m[K~~^~~~~~~[m[K
+[4.583s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::[01;32m[Kstop_motor[m[K({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[4.583s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.583s]   245 | void rplidar_node::stop_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[4.583s]       |                               [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.583s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:245:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.583s]   245 | void rplidar_node::stop_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[4.583s]       |                                                       [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[4.584s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:[m[K In member function ‘[01m[Kvoid rplidar_ros::rplidar_node::[01;32m[Kstart_motor[m[K({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)[m[K’:
+[4.584s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.584s]   256 | void rplidar_node::start_motor([01;35m[Kconst EmptyRequest req[m[K, EmptyResponse res)
+[4.584s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[4.585s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/rplidar_node.cpp:256:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.585s]   256 | void rplidar_node::start_motor(const EmptyRequest req, [01;35m[KEmptyResponse res[m[K)
+[4.585s]       |                                                        [01;35m[K~~~~~~~~~~~~~~^~~[m[K
+[8.688s] [ 22%] [32m[1mLinking CXX executable rplidarNode[0m
+[9.131s] [ 50%] Built target rplidarNode
+[9.237s] [ 55%] [32m[1mLinking CXX shared library librplidar_composition_node.so[0m
+[9.673s] [ 83%] Built target rplidar_composition_node
+[9.737s] [ 88%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o[0m
+[11.566s] [ 94%] [32m[1mLinking CXX executable rplidarNodeClient[0m
+[12.091s] [ 94%] Built target rplidarNodeClient
+[12.610s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39[m[K,
+[12.611s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/include/rplidar_node.hpp:41[m[K,
+[12.611s]                  from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16[m[K:
+[12.611s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.611s]    59 |     _u8 data[[01;35m[K0[m[K];
+[12.612s]       |              [01;35m[K^[m[K
+[12.612s] In file included from [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40[m[K:
+[12.612s] [01m[K/home/peru0002/ros2_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.612s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[12.612s]       |                  [01;35m[K^[m[K
+[13.530s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[13.831s] [100%] Built target rplidar_composition
+[13.877s] Invoked command in '/home/peru0002/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rplidar_ros -- -j8 -l8
+[13.899s] Invoking command in '/home/peru0002/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rplidar_ros
+[13.918s] -- Install configuration: ""
+[13.918s] -- Execute custom install script
+[13.919s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[13.919s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[13.919s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[13.920s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[13.920s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[13.920s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[13.920s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[13.920s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar.launch.py
+[13.921s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[13.921s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[13.921s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[13.921s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[13.921s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[13.921s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[13.922s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[13.922s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/include/rplidar_node.hpp
+[13.922s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/include/visibility.h
+[13.922s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNode
+[13.923s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidarNodeClient
+[13.923s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[13.923s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[13.923s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[13.923s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[13.924s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[13.924s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[13.924s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[13.924s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[13.925s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[13.925s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[13.925s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[13.925s] -- Symlinking: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[13.946s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[13.946s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.946s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.946s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[13.947s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[13.947s] -- Up-to-date symlink: /home/peru0002/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[13.951s] Invoked command in '/home/peru0002/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rplidar_ros

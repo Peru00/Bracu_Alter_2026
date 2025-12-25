@@ -1,0 +1,94 @@
+[0.382s] Invoking command in '/home/peru0002/ros2_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/robotiq_description
+[0.825s] -- The C compiler identification is GNU 13.3.0
+[0.826s] -- The CXX compiler identification is GNU 13.3.0
+[0.826s] -- Detecting C compiler ABI info
+[0.827s] -- Detecting C compiler ABI info - done
+[0.828s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.828s] -- Detecting C compile features
+[0.828s] -- Detecting C compile features - done
+[0.836s] -- Detecting CXX compiler ABI info
+[1.010s] -- Detecting CXX compiler ABI info - done
+[1.025s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.025s] -- Detecting CXX compile features
+[1.026s] -- Detecting CXX compile features - done
+[1.030s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.300s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.743s] -- Configuring done (1.3s)
+[1.748s] -- Generating done (0.0s)
+[1.749s] -- Build files have been written to: /home/peru0002/ros2_ws/build/robotiq_description
+[1.795s] Invoked command in '/home/peru0002/ros2_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/ros2_robotiq_gripper/robotiq_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/robotiq_description
+[1.796s] Invoking command in '/home/peru0002/ros2_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/robotiq_description -- -j8 -l8
+[1.878s] Invoked command in '/home/peru0002/ros2_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/robotiq_description -- -j8 -l8
+[1.881s] Invoking command in '/home/peru0002/ros2_ws/build/robotiq_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/robotiq_description
+[1.931s] -- Install configuration: "Release"
+[1.931s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/config
+[1.931s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/config/robotiq_controllers.yaml
+[1.932s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/launch
+[1.932s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/launch/view_gripper.launch.py
+[1.933s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/launch/robotiq_control.launch.py
+[1.933s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes
+[1.934s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual
+[1.934s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85
+[1.934s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_knuckle.dae
+[1.935s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_knuckle.dae
+[1.936s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger.dae
+[1.936s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae
+[1.936s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae
+[1.937s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae
+[1.937s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae
+[1.937s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/robotiq_base.dae
+[1.937s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/right_finger.dae
+[1.937s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+[1.938s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140
+[1.938s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_coupling.stl
+[1.938s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_finger.stl
+[1.938s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_finger.stl
+[1.938s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_base_link.stl
+[1.938s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_outer_knuckle.stl
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/visual/2f_140/robotiq_2f_140_inner_knuckle.stl
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger.stl
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/robotiq_base.stl
+[1.939s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl
+[1.940s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+[1.940s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/right_knuckle.stl
+[1.940s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl
+[1.940s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_knuckle.stl
+[1.940s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_85/left_finger.stl
+[1.941s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140
+[1.941s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_coupling.stl
+[1.941s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_finger.stl
+[1.941s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_finger.stl
+[1.941s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_base_link.stl
+[1.941s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_outer_knuckle.stl
+[1.941s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/meshes/collision/2f_140/robotiq_2f_140_inner_knuckle.stl
+[1.942s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/rviz
+[1.942s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/rviz/view_urdf.rviz
+[1.942s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf
+[1.942s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140.xacro
+[1.942s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/2f_85.ros2_control.xacro
+[1.942s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_gripper.urdf.xacro
+[1.942s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro
+[1.943s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_gripper.urdf.xacro
+[1.943s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro
+[1.943s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/robotiq_2f_140_macro.urdf.xacro
+[1.943s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/urdf/2f_140.ros2_control.xacro
+[1.943s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/ament_index/resource_index/package_run_dependencies/robotiq_description
+[1.943s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/ament_index/resource_index/parent_prefix_path/robotiq_description
+[1.943s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.sh
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/environment/ament_prefix_path.dsv
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/environment/path.sh
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/environment/path.dsv
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.bash
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.sh
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.zsh
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/local_setup.dsv
+[1.944s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/package.dsv
+[1.945s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/ament_index/resource_index/packages/robotiq_description
+[1.945s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig.cmake
+[1.945s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/cmake/robotiq_descriptionConfig-version.cmake
+[1.945s] -- Installing: /home/peru0002/ros2_ws/install/robotiq_description/share/robotiq_description/package.xml
+[1.987s] Invoked command in '/home/peru0002/ros2_ws/build/robotiq_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/robotiq_description

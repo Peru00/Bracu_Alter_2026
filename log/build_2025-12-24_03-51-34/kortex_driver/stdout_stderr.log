@@ -1,0 +1,62 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  CMakeLists.txt:3 (FetchContent_Declare)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found kortex_api: 0.2.5 (/home/peru0002/ros2_ws/install/kortex_api/share/kortex_api/cmake)
+-- Configuring done (1.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/peru0002/ros2_ws/build/kortex_driver
+[100%] Built target kortex_driver
+-- Install configuration: "Release"
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/hardware_interface_plugin.xml
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/lib/libkortex_driver.so
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/include
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver/hardware_interface.hpp
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver/visibility_control.h
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver/kortex_math_util.hpp
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/library_path.sh
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/library_path.dsv
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/package_run_dependencies/kortex_driver
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/parent_prefix_path/kortex_driver
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/path.sh
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/path.dsv
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.bash
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.sh
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.zsh
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.dsv
+-- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/package.dsv
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/packages/kortex_driver
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/kortex_driver
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig.cmake
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig-version.cmake
+-- Up-to-date: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/package.xml

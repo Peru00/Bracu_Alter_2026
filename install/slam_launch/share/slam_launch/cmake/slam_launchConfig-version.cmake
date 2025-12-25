@@ -1,0 +1,1 @@
+/home/peru0002/ros2_ws/build/slam_launch/ament_cmake_core/slam_launchConfig-version.cmake

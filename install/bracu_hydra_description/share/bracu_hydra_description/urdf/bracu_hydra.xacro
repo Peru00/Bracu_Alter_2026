@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<robot name="bracu_hydra" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find bracu_hydra_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find bracu_hydra_description)/urdf/bracu_hydra.ros2control.xml" />
+<xacro:include filename="$(find bracu_hydra_description)/urdf/bracu_hydra.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0022551767112231062 -8.91140348816321e-06 0.15517476386367832" rpy="0 0 0"/>
+    <mass value="3.6917084715076816"/>
+    <inertia ixx="0.046056" iyy="0.046598" izz="0.030642" ixy="2e-06" iyz="5e-06" ixz="-0.001137"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_1_1">
+  <inertial>
+    <origin xyz="0.032773320348792635 6.445390689407556e-08 0.07975491684206898" rpy="0 0 0"/>
+    <mass value="0.8404079344678268"/>
+    <inertia ixx="0.003454" iyy="0.004028" izz="0.001503" ixy="0.0" iyz="0.0" ixz="-0.001235"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0 -0.0 -0.3498" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/joint_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0 -0.0 -0.3498" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/joint_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_2_1">
+  <inertial>
+    <origin xyz="-0.04185261004348732 -2.3686546226891623e-06 0.1748297689737171" rpy="0 0 0"/>
+    <mass value="1.339897070750904"/>
+    <inertia ixx="0.023904" iyy="0.023891" izz="0.001427" ixy="0.0" iyz="1e-06" ixz="0.00244"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.0065 -0.0 -0.445" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.0065 -0.0 -0.445" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/joint_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="joint_3_1">
+  <inertial>
+    <origin xyz="0.019079786268723812 -7.4400071487377335e-06 0.05434946047188782" rpy="0 0 0"/>
+    <mass value="0.748712557131054"/>
+    <inertia ixx="0.002913" iyy="0.002804" izz="0.00074" ixy="0.0" iyz="0.0" ixz="0.000236"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0065 -0.0 -0.732" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/joint_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0065 -0.0 -0.732" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/joint_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="gripper_1">
+  <inertial>
+    <origin xyz="0.000303254844320423 -0.0003946403705161682 0.09240906086168132" rpy="0 0 0"/>
+    <mass value="1.5020929627358979"/>
+    <inertia ixx="0.006179" iyy="0.006219" izz="0.004143" ixy="-0.0" iyz="7e-06" ixz="-1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 -0.0 -0.8685" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/gripper_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 -0.0 -0.8685" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find bracu_hydra_description)/meshes/gripper_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="base_link_to_joint_1" type="revolute">
+  <origin xyz="0.0 0.0 0.3498" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="joint_1_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_1_to_joint_2" type="revolute">
+  <origin xyz="0.0065 0.0 0.0952" rpy="0 0 0"/>
+  <parent link="joint_1_1"/>
+  <child link="joint_2_1"/>
+  <axis xyz="-1.0 0.0 0.0"/>
+  <limit upper="1.745329" lower="-0.872665" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_2_to_joint_3" type="revolute">
+  <origin xyz="-0.013 0.0 0.287" rpy="0 0 0"/>
+  <parent link="joint_2_1"/>
+  <child link="joint_3_1"/>
+  <axis xyz="1.0 0.0 0.0"/>
+  <limit upper="0.872665" lower="-1.745329" effort="100" velocity="100"/>
+</joint>
+
+<joint name="joint_3_to_gripper" type="revolute">
+  <origin xyz="0.0065 0.0 0.1365" rpy="0 0 0"/>
+  <parent link="joint_3_1"/>
+  <child link="gripper_1"/>
+  <axis xyz="-0.0 0.0 1.0"/>
+  <limit upper="1.570796" lower="-1.570796" effort="100" velocity="100"/>
+</joint>
+
+</robot>

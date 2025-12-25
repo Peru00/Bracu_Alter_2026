@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_common
+-- Install configuration: "Release"
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/ament_index/resource_index/package_run_dependencies/moveit_common
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/ament_index/resource_index/parent_prefix_path/moveit_common
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/ament_prefix_path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/path.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/environment/path.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.bash
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.sh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.zsh
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/local_setup.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/package.dsv
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/ament_index/resource_index/packages/moveit_common
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_common-extras.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_commonConfig-version.cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/package.xml
+-- Up-to-date: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake
+-- Installing: /home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake

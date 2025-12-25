@@ -1,0 +1,43 @@
+[0.038s] Invoking command in '/home/peru0002/ros2_ws/build/slam_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/slam_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/slam_launch
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.247s] -- The CXX compiler identification is GNU 13.3.0
+[0.277s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.478s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.479s] -- Detecting C compile features
+[0.479s] -- Detecting C compile features - done
+[0.499s] -- Detecting CXX compiler ABI info
+[0.705s] -- Detecting CXX compiler ABI info - done
+[0.717s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.718s] -- Detecting CXX compile features
+[0.718s] -- Detecting CXX compile features - done
+[0.747s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.167s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.285s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.694s] -- Configuring done (1.6s)
+[1.698s] -- Generating done (0.0s)
+[1.700s] -- Build files have been written to: /home/peru0002/ros2_ws/build/slam_launch
+[1.707s] Invoked command in '/home/peru0002/ros2_ws/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/slam_launch -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/slam_launch
+[1.709s] Invoking command in '/home/peru0002/ros2_ws/build/slam_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/slam_launch -- -j8 -l8
+[1.815s] Invoked command in '/home/peru0002/ros2_ws/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/slam_launch -- -j8 -l8
+[1.845s] Invoking command in '/home/peru0002/ros2_ws/build/slam_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/slam_launch
+[1.882s] -- Install configuration: ""
+[1.883s] -- Execute custom install script
+[1.883s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/launch/complete_slam.launch.py
+[1.888s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/launch/slam_mapping.launch.py
+[1.911s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/ament_index/resource_index/package_run_dependencies/slam_launch
+[1.932s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/ament_index/resource_index/parent_prefix_path/slam_launch
+[1.956s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/ament_prefix_path.sh
+[1.977s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/ament_prefix_path.dsv
+[1.998s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/path.sh
+[2.029s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/path.dsv
+[2.057s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.bash
+[2.087s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.sh
+[2.118s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.zsh
+[2.144s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.dsv
+[2.165s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/package.dsv
+[2.185s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/ament_index/resource_index/packages/slam_launch
+[2.208s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/cmake/slam_launchConfig.cmake
+[2.233s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/cmake/slam_launchConfig-version.cmake
+[2.255s] -- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/package.xml
+[2.284s] Invoked command in '/home/peru0002/ros2_ws/build/slam_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/slam_launch

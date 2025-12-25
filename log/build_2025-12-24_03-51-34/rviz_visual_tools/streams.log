@@ -1,0 +1,131 @@
+[0.033s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rviz_visual_tools -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rviz_visual_tools
+[0.070s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.499s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.562s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.581s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.612s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.757s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.760s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.874s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.994s] -- Found rclcpp_components: 28.1.13 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[1.047s] -- Found rviz_ogre_vendor: 14.1.17 (/opt/ros/jazzy/share/rviz_ogre_vendor/cmake)
+[1.048s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.052s] -- Found OGRE
+[1.055s] --   static     : OFF
+[1.055s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.056s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.056s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.056s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.056s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[1.056s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.056s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[1.056s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.056s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.056s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.057s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.309s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.430s] -- Found shape_msgs: 5.3.6 (/opt/ros/jazzy/share/shape_msgs/cmake)
+[1.464s] -- Found visualization_msgs: 5.3.6 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.515s] -- Found trajectory_msgs: 5.3.6 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[1.552s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.552s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/jazzy/share/eigen_stl_containers/cmake)
+[1.569s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[1.577s] -- Found tf2_eigen: 0.36.16 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[1.712s] -- Found tf2_geometry_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.727s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.727s] -- Found pluginlib: 5.4.3 (/opt/ros/jazzy/share/pluginlib/cmake)
+[1.734s] -- Found interactive_markers: 2.5.5 (/opt/ros/jazzy/share/interactive_markers/cmake)
+[1.747s] -- Found rviz_common: 14.1.17 (/opt/ros/jazzy/share/rviz_common/cmake)
+[1.844s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.865s] -- Found rviz_default_plugins: 14.1.17 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[2.108s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[2.110s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.304s] -- Configuring done (2.2s)
+[2.597s] -- Generating done (0.2s)
+[2.643s] -- Build files have been written to: /home/peru0002/ros2_ws/build/rviz_visual_tools
+[2.671s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rviz_visual_tools -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/rviz_visual_tools
+[2.672s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rviz_visual_tools -- -j8 -l8
+[2.785s] [  0%] Built target rviz_visual_tools_remote_control_autogen_timestamp_deps
+[2.785s] [  0%] Built target gtest_autogen_timestamp_deps
+[2.788s] [  0%] Built target gtest_main_autogen_timestamp_deps
+[2.790s] [  0%] Built target rviz_visual_tools_gui_autogen_timestamp_deps
+[2.829s] [  2%] Built target gtest_main_autogen
+[2.844s] [  4%] Built target gtest_autogen
+[2.854s] [  7%] [34m[1mAutomatic MOC for target rviz_visual_tools_remote_control[0m
+[2.886s] [ 17%] Built target gtest_main
+[2.897s] [ 26%] Built target gtest
+[2.898s] [ 29%] [34m[1mAutomatic MOC for target rviz_visual_tools_gui[0m
+[2.913s] [ 29%] Built target rviz_visual_tools_remote_control_autogen
+[2.961s] [ 36%] Built target rviz_visual_tools_remote_control
+[2.969s] [ 36%] Built target rviz_visual_tools_gui_autogen
+[2.997s] [ 36%] Built target rviz_visual_tools_autogen_timestamp_deps
+[3.057s] [ 39%] [34m[1mAutomatic MOC for target rviz_visual_tools[0m
+[3.057s] [ 51%] Built target rviz_visual_tools_gui
+[3.123s] [ 51%] Built target rviz_visual_tools_autogen
+[3.207s] [ 60%] Built target rviz_visual_tools
+[3.259s] [ 60%] Built target rviz_visual_tools_demo_autogen_timestamp_deps
+[3.261s] [ 60%] Built target rviz_visual_tools_rvt_test_autogen_timestamp_deps
+[3.271s] [ 60%] Built target rviz_visual_tools_imarker_simple_autogen_timestamp_deps
+[3.329s] [ 63%] [34m[1mAutomatic MOC for target rviz_visual_tools_rvt_test[0m
+[3.336s] [ 65%] [34m[1mAutomatic MOC for target rviz_visual_tools_demo[0m
+[3.342s] [ 68%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple[0m
+[3.392s] [ 68%] Built target rviz_visual_tools_rvt_test_autogen
+[3.409s] [ 68%] Built target rviz_visual_tools_demo_autogen
+[3.411s] [ 68%] Built target rviz_visual_tools_imarker_simple_autogen
+[3.455s] [ 75%] Built target rviz_visual_tools_rvt_test
+[3.469s] [ 82%] Built target rviz_visual_tools_demo
+[3.472s] [ 90%] Built target rviz_visual_tools_imarker_simple
+[3.503s] [ 90%] Built target rviz_visual_tools_imarker_simple_demo_autogen_timestamp_deps
+[3.578s] [ 92%] [34m[1mAutomatic MOC for target rviz_visual_tools_imarker_simple_demo[0m
+[3.635s] [ 92%] Built target rviz_visual_tools_imarker_simple_demo_autogen
+[3.702s] [100%] Built target rviz_visual_tools_imarker_simple_demo
+[3.736s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/rviz_visual_tools -- -j8 -l8
+[3.738s] Invoking command in '/home/peru0002/ros2_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rviz_visual_tools
+[3.760s] -- Install configuration: "Release"
+[3.762s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/plugin_description.xml
+[3.762s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools.so
+[3.762s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_remote_control.so
+[3.763s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_gui.so
+[3.763s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/librviz_visual_tools_imarker_simple.so
+[3.764s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_demo
+[3.765s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/lib/rviz_visual_tools/rviz_visual_tools_imarker_simple_demo
+[3.765s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include
+[3.766s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools
+[3.766s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools_gui.hpp
+[3.766s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/tf_visual_tools.hpp
+[3.767s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_reciever.hpp
+[3.767s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/rviz_visual_tools.hpp
+[3.767s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/remote_control.hpp
+[3.768s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/imarker_simple.hpp
+[3.768s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/include/rviz_visual_tools/key_tool.hpp
+[3.768s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch
+[3.769s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_rviz.launch.py
+[3.769s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/rvt_test.launch
+[3.769s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo.rviz
+[3.770s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/launch/demo_combined.launch.py
+[3.770s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.sh
+[3.770s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/library_path.dsv
+[3.771s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/package_run_dependencies/rviz_visual_tools
+[3.771s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/parent_prefix_path/rviz_visual_tools
+[3.771s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.sh
+[3.772s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/ament_prefix_path.dsv
+[3.773s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.sh
+[3.774s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/environment/path.dsv
+[3.774s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.bash
+[3.774s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.sh
+[3.775s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.zsh
+[3.775s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/local_setup.dsv
+[3.775s] -- Installing: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.dsv
+[3.776s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/packages/rviz_visual_tools
+[3.776s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_visual_tools
+[3.777s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport.cmake
+[3.777s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/export_rviz_visual_toolsExport-release.cmake
+[3.777s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[3.777s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.778s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.778s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/ament_cmake_export_libraries-extras.cmake
+[3.778s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig.cmake
+[3.778s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/cmake/rviz_visual_toolsConfig-version.cmake
+[3.779s] -- Up-to-date: /home/peru0002/ros2_ws/install/rviz_visual_tools/share/rviz_visual_tools/package.xml
+[3.779s] Invoked command in '/home/peru0002/ros2_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/rviz_visual_tools

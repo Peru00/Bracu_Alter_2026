@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/msg/PlanningSceneComponents",
+      "fields": [
+        {
+          "name": "components",
+          "type": {
+            "type_id": 7,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/msg/PlanningSceneComponents",
+      "hash_string": "RIHS01_76b77cb53f7a0b680d46fad6c0056d3710a74ec335dd5f361f3df62383313d69"
+    }
+  ]
+}

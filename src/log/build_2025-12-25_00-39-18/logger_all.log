@@ -1,0 +1,182 @@
+[0.260s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.260s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x731aac14aba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x731aac8171a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x731aac8171a0>>, mixin_verb=('build',))
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.346s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/peru0002/ros2_ws/src'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'ros'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extensions ['cmake', 'python']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'cmake'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'python'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extensions ['python_setup_py']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description) by extension 'python_setup_py'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extension 'ignore'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extension 'ignore_ament_install'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extensions ['colcon_pkg']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extension 'colcon_pkg'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extensions ['colcon_meta']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extension 'colcon_meta'
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extensions ['ros']
+[0.394s] Level 1:colcon.colcon_core.package_identification:_identify(bracu_hydra_description/bracu_hydra_description) by extension 'ros'
+[0.399s] DEBUG:colcon.colcon_core.package_identification:Package 'bracu_hydra_description/bracu_hydra_description' with type 'ros.ament_python' and name 'bracu_hydra_description'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros2) by extension 'ros'
+[0.402s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.455s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 72 installed packages in /home/peru0002/ws_moveit/install
+[0.458s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 36 installed packages in /home/peru0002/ros2_ws/install
+[0.466s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 386 installed packages in /opt/ros/jazzy
+[0.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.637s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'bracu_hydra_description' is in: /home/peru0002/ws_moveit/install/bracu_hydra_description, /home/peru0002/ros2_ws/install/bracu_hydra_description
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding bracu_hydra_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'cmake_args' from command line to 'None'
+[0.640s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'cmake_target' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'bracu_hydra_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.641s] DEBUG:colcon.colcon_core.verb:Building package 'bracu_hydra_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peru0002/ros2_ws/src/build/bracu_hydra_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peru0002/ros2_ws/src/install/bracu_hydra_description', 'merge_install': False, 'path': '/home/peru0002/ros2_ws/src/bracu_hydra_description/bracu_hydra_description', 'symlink_install': True, 'test_result_base': None}
+[0.641s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.642s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.642s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/peru0002/ros2_ws/src/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/peru0002/ros2_ws/src/install/rplidar_ros', 'merge_install': False, 'path': '/home/peru0002/ros2_ws/src/rplidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.642s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.648s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.648s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/peru0002/ros2_ws/src/bracu_hydra_description/bracu_hydra_description' with build type 'ament_python'
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('bracu_hydra_description', 'ament_prefix_path')
+[0.653s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/hook/ament_prefix_path.ps1'
+[0.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/hook/ament_prefix_path.dsv'
+[0.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/hook/ament_prefix_path.sh'
+[0.671s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.671s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.702s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/peru0002/ros2_ws/src/rplidar_ros2' with build type 'ament_cmake'
+[0.704s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/peru0002/ros2_ws/src/rplidar_ros2'
+[0.704s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.190s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/peru0002/ros2_ws/src/bracu_hydra_description/bracu_hydra_description'
+[1.191s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peru0002/ros2_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/src/install/rplidar_ros
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peru0002/ros2_ws/src/build/bracu_hydra_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/src/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/peru0002/ros2_ws/src/build/bracu_hydra_description/build --no-deps symlink_data
+[3.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('bracu_hydra_description', 'pythonpath_develop')
+[3.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peru0002/ros2_ws/src/build/bracu_hydra_description/share/bracu_hydra_description/hook/pythonpath_develop.ps1'
+[3.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peru0002/ros2_ws/src/build/bracu_hydra_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/peru0002/ros2_ws/src/build/bracu_hydra_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/peru0002/ros2_ws/src/build/bracu_hydra_description/build --no-deps symlink_data
+[3.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peru0002/ros2_ws/src/build/bracu_hydra_description/share/bracu_hydra_description/hook/pythonpath_develop.dsv'
+[3.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peru0002/ros2_ws/src/build/bracu_hydra_description/share/bracu_hydra_description/hook/pythonpath_develop.sh'
+[3.744s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/bracu_hydra_description' for CMake module files
+[3.745s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/bracu_hydra_description' for CMake config files
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib'
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/bin'
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/pkgconfig/bracu_hydra_description.pc'
+[3.746s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/python3.12/site-packages'
+[3.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('bracu_hydra_description', 'pythonpath')
+[3.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/hook/pythonpath.ps1'
+[3.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/hook/pythonpath.dsv'
+[3.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/hook/pythonpath.sh'
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/bin'
+[3.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bracu_hydra_description)
+[3.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/package.ps1'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/package.dsv'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/package.sh'
+[3.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/package.bash'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/package.zsh'
+[3.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/colcon-core/packages/bracu_hydra_description)
+[5.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peru0002/ros2_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/rplidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/src/install/rplidar_ros
+[5.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/peru0002/ros2_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/src/build/rplidar_ros -- -j8 -l8
+[16.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[16.957s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/rplidar_ros' for CMake module files
+[16.958s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/rplidar_ros' for CMake config files
+[16.958s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/rplidar_ros/bin'
+[16.958s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[16.958s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/rplidar_ros/lib/python3.12/site-packages'
+[16.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/peru0002/ros2_ws/src/build/rplidar_ros' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/peru0002/ros2_ws/install/moveit_configs_utils:/home/peru0002/ros2_ws/install/bracu_hydra_description:/home/peru0002/ws_moveit/install/moveit_configs_utils:/home/peru0002/ws_moveit/install/bracu_hydra_description:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/src/build/rplidar_ros -- -j8 -l8
+[16.959s] Level 1:colcon.colcon_core.environment:checking '/home/peru0002/ros2_ws/src/install/rplidar_ros/bin'
+[16.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[16.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/peru0002/ros2_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[16.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[16.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[16.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/peru0002/ros2_ws/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[16.962s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/peru0002/ros2_ws/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[16.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.964s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[16.964s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.973s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.973s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.998s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peru0002/ros2_ws/src/install/local_setup.ps1'
+[17.000s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peru0002/ros2_ws/src/install/_local_setup_util_ps1.py'
+[17.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peru0002/ros2_ws/src/install/setup.ps1'
+[17.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peru0002/ros2_ws/src/install/local_setup.sh'
+[17.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/peru0002/ros2_ws/src/install/_local_setup_util_sh.py'
+[17.014s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peru0002/ros2_ws/src/install/setup.sh'
+[17.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peru0002/ros2_ws/src/install/local_setup.bash'
+[17.025s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peru0002/ros2_ws/src/install/setup.bash'
+[17.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/peru0002/ros2_ws/src/install/local_setup.zsh'
+[17.034s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/peru0002/ros2_ws/src/install/setup.zsh'

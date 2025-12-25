@@ -1,0 +1,76 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/msg/AllowedCollisionMatrix",
+      "fields": [
+        {
+          "name": "entry_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "entry_values",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "moveit_msgs/msg/AllowedCollisionEntry"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "default_entry_names",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "default_entry_values",
+          "type": {
+            "type_id": 159,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "moveit_msgs/msg/AllowedCollisionEntry",
+        "fields": [
+          {
+            "name": "enabled",
+            "type": {
+              "type_id": 159,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/msg/AllowedCollisionMatrix",
+      "hash_string": "RIHS01_ac0159eec0d99f73158c7349c9d1c01b3dc7f749d75a2ea22e74a2a1091a9b05"
+    },
+    {
+      "type_name": "moveit_msgs/msg/AllowedCollisionEntry",
+      "hash_string": "RIHS01_eeb7cc3f1bfdb8c778aa7454ae90037c2749dab3ca0abdfe3dad2ae8723977db"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+running develop
+running egg_info
+creating bracu_hydra_description.egg-info
+writing bracu_hydra_description.egg-info/PKG-INFO
+writing dependency_links to bracu_hydra_description.egg-info/dependency_links.txt
+writing requirements to bracu_hydra_description.egg-info/requires.txt
+writing top-level names to bracu_hydra_description.egg-info/top_level.txt
+writing manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+reading manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+writing manifest file 'bracu_hydra_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/lib/python3.12/site-packages/bracu-hydra-description.egg-link (link to .)
+
+Installed /home/peru0002/ros2_ws/src/build/bracu_hydra_description
+running symlink_data
+creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index
+creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index/resource_index
+creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index/resource_index/packages
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/resource/bracu_hydra_description -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/ament_index/resource_index/packages
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/package.xml -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description
+creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/launch
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/launch/gazebo.launch.py -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/launch
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/launch/display.launch.py -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/launch
+creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/bracu_hydra.ros2control.xml -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/bracu_hydra.xacro -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/materials.xacro -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/urdf/bracu_hydra.gazebo -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/urdf
+creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/joint_2_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/base_link.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/gripper_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/joint_3_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/meshes/joint_1_1.stl -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/meshes
+creating /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/config/gazebo.rviz -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/config/ros_gz_bridge_gazebo.yaml -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config
+symbolically linking /home/peru0002/ros2_ws/src/build/bracu_hydra_description/config/display.rviz -> /home/peru0002/ros2_ws/src/install/bracu_hydra_description/share/bracu_hydra_description/config

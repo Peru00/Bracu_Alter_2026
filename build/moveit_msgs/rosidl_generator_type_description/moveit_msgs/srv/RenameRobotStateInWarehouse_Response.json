@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/srv/RenameRobotStateInWarehouse_Response",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/srv/RenameRobotStateInWarehouse_Response",
+      "hash_string": "RIHS01_9002edf0a536c3bf0c39fe3534b103b49878e46a756a1c93ef696613a769a05c"
+    }
+  ]
+}

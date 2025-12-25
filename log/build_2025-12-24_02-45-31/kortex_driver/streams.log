@@ -1,0 +1,87 @@
+[0.017s] Invoking command in '/home/peru0002/ros2_ws/build/kortex_driver': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/ros2_kortex/kortex_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/kortex_driver
+[0.083s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
+[0.083s]   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+[0.083s]   not set.  The policy's OLD behavior will be used.  When using a URL
+[0.083s]   download, the timestamps of extracted files should preferably be that of
+[0.083s]   the time of extraction, otherwise code that depends on the extracted
+[0.084s]   contents might not be rebuilt if the URL changes.  The OLD behavior
+[0.084s]   preserves the timestamps from the archive instead, but this is usually not
+[0.084s]   what you want.  Update your project to the NEW behavior or specify the
+[0.084s]   DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+[0.084s]   robustness issue.
+[0.084s] Call Stack (most recent call first):
+[0.084s]   CMakeLists.txt:3 (FetchContent_Declare)
+[0.084s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.084s] [0m
+[7.504s] -- The C compiler identification is GNU 13.3.0
+[7.984s] -- The CXX compiler identification is GNU 13.3.0
+[8.058s] -- Detecting C compiler ABI info
+[8.458s] -- Detecting C compiler ABI info - done
+[8.498s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.499s] -- Detecting C compile features
+[8.499s] -- Detecting C compile features - done
+[8.538s] -- Detecting CXX compiler ABI info
+[9.085s] -- Detecting CXX compiler ABI info - done
+[9.149s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.150s] -- Detecting CXX compile features
+[9.151s] -- Detecting CXX compile features - done
+[9.191s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.942s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[10.520s] -- Found hardware_interface: 4.39.2 (/opt/ros/jazzy/share/hardware_interface/cmake)
+[10.791s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[10.848s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[10.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.003s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.106s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[12.400s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[12.426s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[12.604s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[12.833s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[12.847s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[12.918s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[12.936s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[12.968s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[13.020s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[14.261s] -- Found kortex_api: 0.2.5 (/home/peru0002/ros2_ws/install/kortex_api/share/kortex_api/cmake)
+[14.832s] -- Configuring done (14.8s)
+[14.953s] -- Generating done (0.1s)
+[14.977s] -- Build files have been written to: /home/peru0002/ros2_ws/build/kortex_driver
+[15.034s] Invoked command in '/home/peru0002/ros2_ws/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/peru0002/ros2_ws/src/ros2_kortex/kortex_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/kortex_driver
+[15.037s] Invoking command in '/home/peru0002/ros2_ws/build/kortex_driver': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/kortex_driver -- -j8 -l8
+[15.267s] [ 33%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/hardware_interface.cpp.o[0m
+[15.279s] [ 66%] [32mBuilding CXX object CMakeFiles/kortex_driver.dir/src/kortex_math_util.cpp.o[0m
+[36.201s] [100%] [32m[1mLinking CXX shared library libkortex_driver.so[0m
+[37.901s] [100%] Built target kortex_driver
+[37.923s] Invoked command in '/home/peru0002/ros2_ws/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/peru0002/ros2_ws/build/kortex_driver -- -j8 -l8
+[37.924s] Invoking command in '/home/peru0002/ros2_ws/build/kortex_driver': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/kortex_driver
+[37.939s] -- Install configuration: "Release"
+[37.940s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/hardware_interface_plugin.xml
+[37.941s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/lib/libkortex_driver.so
+[37.958s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/kortex_driver/lib/libkortex_driver.so" to ""
+[37.959s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/include
+[37.959s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver
+[37.960s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver/hardware_interface.hpp
+[37.961s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver/visibility_control.h
+[37.961s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/include/kortex_driver/kortex_math_util.hpp
+[37.962s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/library_path.sh
+[37.963s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/library_path.dsv
+[37.963s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/package_run_dependencies/kortex_driver
+[37.964s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/parent_prefix_path/kortex_driver
+[37.965s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.sh
+[37.965s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/ament_prefix_path.dsv
+[37.966s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/path.sh
+[37.966s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/environment/path.dsv
+[37.967s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.bash
+[37.968s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.sh
+[37.968s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.zsh
+[37.969s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/local_setup.dsv
+[37.970s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/package.dsv
+[37.970s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/packages/kortex_driver
+[37.971s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/kortex_driver
+[37.972s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.972s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[37.973s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.973s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig.cmake
+[37.974s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/cmake/kortex_driverConfig-version.cmake
+[37.976s] -- Installing: /home/peru0002/ros2_ws/install/kortex_driver/share/kortex_driver/package.xml
+[37.977s] Invoked command in '/home/peru0002/ros2_ws/build/kortex_driver' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/kortex_api:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/peru0002/ros2_ws/build/kortex_driver

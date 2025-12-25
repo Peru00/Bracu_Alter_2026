@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/peru0002/ros2_ws/src/moveit2/moveit_ros/planning/planning_request_adapter_plugins
+# Build directory: /home/peru0002/ros2_ws/build/moveit_ros_planning/planning_request_adapter_plugins
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[test_check_start_state_bounds]=] "/usr/bin/python3" "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/home/peru0002/ros2_ws/build/moveit_ros_planning/test_results/moveit_ros_planning/test_check_start_state_bounds.gtest.xml" "--package-name" "moveit_ros_planning" "--output-file" "/home/peru0002/ros2_ws/build/moveit_ros_planning/ament_cmake_gmock/test_check_start_state_bounds.txt" "--command" "/home/peru0002/ros2_ws/build/moveit_ros_planning/planning_request_adapter_plugins/test_check_start_state_bounds" "--gtest_output=xml:/home/peru0002/ros2_ws/build/moveit_ros_planning/test_results/moveit_ros_planning/test_check_start_state_bounds.gtest.xml")
+set_tests_properties([=[test_check_start_state_bounds]=] PROPERTIES  LABELS "gmock" REQUIRED_FILES "/home/peru0002/ros2_ws/build/moveit_ros_planning/planning_request_adapter_plugins/test_check_start_state_bounds" TIMEOUT "60" WORKING_DIRECTORY "/home/peru0002/ros2_ws/build/moveit_ros_planning/planning_request_adapter_plugins" _BACKTRACE_TRIPLES "/opt/ros/jazzy/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/jazzy/share/ament_cmake_gmock/cmake/ament_add_gmock_test.cmake;98;ament_add_test;/opt/ros/jazzy/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake;90;ament_add_gmock_test;/home/peru0002/ros2_ws/src/moveit2/moveit_ros/planning/planning_request_adapter_plugins/CMakeLists.txt;22;ament_add_gmock;/home/peru0002/ros2_ws/src/moveit2/moveit_ros/planning/planning_request_adapter_plugins/CMakeLists.txt;0;")
+subdirs("../gmock")

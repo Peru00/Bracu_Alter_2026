@@ -1,0 +1,118 @@
+[0.036s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_ros_control_interface
+[1.593s] -- The CXX compiler identification is GNU 13.3.0
+[1.594s] -- Detecting CXX compiler ABI info
+[1.594s] -- Detecting CXX compiler ABI info - done
+[1.594s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.595s] -- Detecting CXX compile features
+[1.595s] -- Detecting CXX compile features - done
+[1.595s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.595s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.597s] -- Found rclcpp_action: 28.1.13 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[1.597s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.598s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.598s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.598s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.599s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.599s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.688s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.733s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.020s] -- Found controller_manager_msgs: 4.39.2 (/opt/ros/jazzy/share/controller_manager_msgs/cmake)
+[2.174s] -- Found moveit_core: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_core/share/moveit_core/cmake)
+[2.468s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.660s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.697s] -- Found rclcpp_lifecycle: 28.1.13 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.745s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[3.072s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.072s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.831s] -- Found moveit_simple_controller_manager: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake)
+[3.838s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+[3.970s] -- Found moveit_common: 2.14.1 (/home/peru0002/ros2_ws/install/moveit_common/share/moveit_common/cmake)
+[4.182s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system thread 
+[4.247s] -- Found ament_cmake_gtest: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[4.254s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.356s] -- The C compiler identification is GNU 13.3.0
+[4.384s] -- Detecting C compiler ABI info
+[4.581s] -- Detecting C compiler ABI info - done
+[4.598s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.599s] -- Detecting C compile features
+[4.600s] -- Detecting C compile features - done
+[4.605s] -- Found Threads: TRUE  
+[4.618s] -- Configuring done (4.6s)
+[4.786s] -- Generating done (0.1s)
+[4.820s] -- Build files have been written to: /home/peru0002/ros2_ws/build/moveit_ros_control_interface
+[4.849s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/peru0002/ros2_ws/src/moveit2/moveit_plugins/moveit_ros_control_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/peru0002/ros2_ws/install/moveit_ros_control_interface
+[4.852s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_ros_control_interface -- -j8 -l8
+[4.940s] [  6%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_plugin.dir/src/controller_manager_plugin.cpp.o[0m
+[23.941s] [ 12%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_plugin.so[0m
+[24.357s] [ 12%] Built target moveit_ros_control_interface_plugin
+[24.391s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35.295s] [ 25%] [32m[1mLinking CXX static library libgtest.a[0m
+[35.400s] [ 25%] Built target gtest
+[35.434s] [ 31%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[36.477s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[36.589s] [ 37%] Built target gtest_main
+[36.634s] [ 43%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_empty_plugin.dir/src/empty_controller_plugin.cpp.o[0m
+[41.218s] [ 50%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_empty_plugin.so[0m
+[41.888s] [ 50%] Built target moveit_ros_control_interface_empty_plugin
+[41.955s] [ 56%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_parallel_gripper_plugin.dir/src/parallel_gripper_command_controller_plugin.cpp.o[0m
+[41.972s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_controller_manager_plugin.dir/test_controller_manager_plugin.cpp.o[0m
+[53.858s] [ 68%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_parallel_gripper_plugin.so[0m
+[54.410s] [ 68%] Built target moveit_ros_control_interface_parallel_gripper_plugin
+[54.483s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_gripper_plugin.dir/src/gripper_command_controller_plugin.cpp.o[0m
+[54.518s] [ 81%] [32mBuilding CXX object CMakeFiles/moveit_ros_control_interface_trajectory_plugin.dir/src/joint_trajectory_controller_plugin.cpp.o[0m
+[64.781s] [ 87%] [32m[1mLinking CXX executable test_controller_manager_plugin[0m
+[65.652s] [ 87%] Built target test_controller_manager_plugin
+[68.233s] [ 93%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_gripper_plugin.so[0m
+[68.744s] [ 93%] Built target moveit_ros_control_interface_gripper_plugin
+[69.698s] [100%] [32m[1mLinking CXX shared library libmoveit_ros_control_interface_trajectory_plugin.so[0m
+[70.295s] [100%] Built target moveit_ros_control_interface_trajectory_plugin
+[70.319s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/peru0002/ros2_ws/build/moveit_ros_control_interface -- -j8 -l8
+[70.321s] Invoking command in '/home/peru0002/ros2_ws/build/moveit_ros_control_interface': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_ros_control_interface
+[70.338s] -- Install configuration: "Release"
+[70.339s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.14.1
+[70.342s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so.2.14.1" to ""
+[70.343s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_plugin.so
+[70.343s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.14.1
+[70.344s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so.2.14.1" to ""
+[70.345s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_trajectory_plugin.so
+[70.345s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.14.1
+[70.349s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so.2.14.1" to ""
+[70.349s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_gripper_plugin.so
+[70.349s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_parallel_gripper_plugin.so.2.14.1
+[70.350s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_parallel_gripper_plugin.so.2.14.1" to ""
+[70.350s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_parallel_gripper_plugin.so
+[70.350s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.14.1
+[70.350s] -- Set non-toolchain portion of runtime path of "/home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so.2.14.1" to ""
+[70.351s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/lib/libmoveit_ros_control_interface_empty_plugin.so
+[70.351s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/include/moveit_ros_control_interface
+[70.351s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/include/moveit_ros_control_interface/moveit_ros_control_interface
+[70.351s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/include/moveit_ros_control_interface/moveit_ros_control_interface/ControllerHandle.h
+[70.352s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/include/moveit_ros_control_interface/moveit_ros_control_interface/ControllerHandle.hpp
+[70.352s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_core_plugins.xml
+[70.355s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/moveit_ros_control_interface_plugins.xml
+[70.355s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.sh
+[70.356s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/library_path.dsv
+[70.356s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/package_run_dependencies/moveit_ros_control_interface
+[70.356s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/parent_prefix_path/moveit_ros_control_interface
+[70.356s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.sh
+[70.357s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/ament_prefix_path.dsv
+[70.357s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.sh
+[70.357s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/environment/path.dsv
+[70.361s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.bash
+[70.361s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.sh
+[70.362s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.zsh
+[70.362s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/local_setup.dsv
+[70.362s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.dsv
+[70.362s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/packages/moveit_ros_control_interface
+[70.362s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_ros_control_interface
+[70.363s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/ament_index/resource_index/moveit_ros_control_interface__pluginlib__plugin/moveit_ros_control_interface
+[70.363s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceTargetsExport.cmake
+[70.363s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceTargetsExport-release.cmake
+[70.364s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ConfigExtras.cmake
+[70.364s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_targets-extras.cmake
+[70.365s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[70.365s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig.cmake
+[70.368s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/cmake/moveit_ros_control_interfaceConfig-version.cmake
+[70.368s] -- Installing: /home/peru0002/ros2_ws/install/moveit_ros_control_interface/share/moveit_ros_control_interface/package.xml
+[70.370s] Invoked command in '/home/peru0002/ros2_ws/build/moveit_ros_control_interface' returned '0': AMENT_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager:/home/peru0002/ros2_ws/install/moveit_core:/home/peru0002/ros2_ws/install/moveit_resources_panda_moveit_config:/home/peru0002/ros2_ws/install/moveit_resources_pr2_description:/home/peru0002/ros2_ws/install/moveit_resources_panda_description:/home/peru0002/ros2_ws/install/moveit_msgs:/home/peru0002/ros2_ws/install/moveit_common:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/peru0002/ros2_ws/install/moveit_simple_controller_manager/lib:/home/peru0002/ros2_ws/install/moveit_core/lib:/home/peru0002/ros2_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/peru0002/ros2_ws/install/moveit_core/bin:${PATH} PYTHONPATH=/home/peru0002/ros2_ws/install/moveit_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/peru0002/ros2_ws/build/moveit_ros_control_interface

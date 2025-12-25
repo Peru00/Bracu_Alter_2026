@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moveit_msgs/action/MoveGroup_Feedback",
+      "fields": [
+        {
+          "name": "state",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moveit_msgs/action/MoveGroup_Feedback",
+      "hash_string": "RIHS01_d0cb5a6d2213e97858a73830b26b1c8f1d8989b6b47c489886527a419452fafe"
+    }
+  ]
+}

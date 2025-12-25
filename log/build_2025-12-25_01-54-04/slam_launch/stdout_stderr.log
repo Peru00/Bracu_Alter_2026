@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (1.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/peru0002/ros2_ws/build/slam_launch
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/launch/complete_slam.launch.py
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/launch/slam_mapping.launch.py
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/ament_index/resource_index/package_run_dependencies/slam_launch
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/ament_index/resource_index/parent_prefix_path/slam_launch
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/ament_prefix_path.sh
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/ament_prefix_path.dsv
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/path.sh
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/environment/path.dsv
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.bash
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.sh
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.zsh
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/local_setup.dsv
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/package.dsv
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/ament_index/resource_index/packages/slam_launch
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/cmake/slam_launchConfig.cmake
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/cmake/slam_launchConfig-version.cmake
+-- Symlinking: /home/peru0002/ros2_ws/install/slam_launch/share/slam_launch/package.xml

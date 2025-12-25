@@ -1,0 +1,1 @@
+#pragma message("#include \"stomp_moveit_parameters.hpp\" is deprecated. Use #include <moveit_planners_stomp/stomp_moveit_parameters.hpp> instead.")

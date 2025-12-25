@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_msgs/srv/GetMultiStateValidity.srv
+// generated code does not contain a copyright notice
+
+#include "moveit_msgs/msg/ConstraintEvalResult.idl"
+#include "moveit_msgs/msg/Constraints.idl"
+#include "moveit_msgs/msg/ContactInformation.idl"
+#include "moveit_msgs/msg/CostSource.idl"
+#include "moveit_msgs/msg/RobotState.idl"
+#include "sensor_msgs/msg/JointState.idl"
+
+module moveit_msgs {
+  module srv {
+    struct GetMultiStateValidity_Request {
+      moveit_msgs::msg::RobotState robot_state;
+
+      sequence<sensor_msgs::msg::JointState> joint_states;
+
+      string group_name;
+
+      moveit_msgs::msg::Constraints constraints;
+    };
+    struct GetMultiStateValidity_Response {
+      boolean valid;
+
+      sequence<moveit_msgs::msg::ContactInformation> contacts;
+
+      sequence<moveit_msgs::msg::CostSource> cost_sources;
+
+      sequence<moveit_msgs::msg::ConstraintEvalResult> constraint_result;
+    };
+  };
+};
